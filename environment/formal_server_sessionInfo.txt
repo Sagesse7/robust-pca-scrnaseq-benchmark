@@ -1,0 +1,36 @@
+Captured: 2026-07-18 03:32:40 JST
+
+R version 4.4.1 (2024-06-14)
+Platform: x86_64-conda-linux-gnu
+Operating system: Rocky Linux 8.9 (Linux 4.18.0-553.64.1.el8_10.x86_64)
+BLAS: OpenBLAS 0.3.28
+LAPACK: 3.12.0
+Locale: en_US.UTF-8 (LC_NUMERIC=C)
+Time zone: Asia/Tokyo
+RNGkind: Mersenne-Twister, Inversion, Rejection
+
+Formal numerical-library settings:
+OPENBLAS_NUM_THREADS=1
+MKL_NUM_THREADS=1
+OMP_NUM_THREADS=1
+VECLIB_MAXIMUM_THREADS=1
+NUMEXPR_NUM_THREADS=1
+
+Selected analysis packages:
+aricode 1.0.3
+data.table 1.15.4
+future 1.68.0
+future.apply 1.20.0
+igraph 2.2.1
+Matrix 1.6-5
+mclust 6.1.2
+readxl 1.4.5
+rpca 0.2.3
+rrcov 1.7-7
+RSpectra 0.16-2
+scran 1.34.0
+splatter 1.30.0
+SummarizedExperiment 1.36.0
+
+See formal_server_packages.csv for the full installed R package inventory and
+formal_server_conda_environment.yml for the Conda dependency export.

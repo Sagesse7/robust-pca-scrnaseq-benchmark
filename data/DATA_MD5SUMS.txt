@@ -1,0 +1,7 @@
+472d822337ac3a11a6a2f11200e7c3da  data/pbmcs/filtered_feature_bc_matrix/matrix.mtx
+1e0949c8bc793752a476b074bab793f0  data/pbmcs/filtered_feature_bc_matrix/features.tsv
+745f599c9dce159437e7022969bf9505  data/pbmcs/filtered_feature_bc_matrix/barcodes.tsv
+63190cfe9972f90413b833186e4ca68e  data/pbmcs/clusters.csv
+fee29f30b6a6ab121f027e8436667eaa  data/pancreas_GSM2230759_human3_umifm_counts.csv
+81de6c10e73e41e06ec91128bc2c16f7  data/bhattacherjee/GSE124952_expression_matrix.csv.gz
+cde3dc48b47926ba753f0204c973a290  data/bhattacherjee/GSE124952_meta_data.csv.gz

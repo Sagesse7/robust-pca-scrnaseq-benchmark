@@ -1,0 +1,8 @@
+SettingID,Panel,Cell,Gene,CellType,de_prob,DeFacLoc,BackgroundDropoutMid
+1,gene_scaling,2000,500,5,0.08,0.1,0
+2,gene_scaling,2000,1000,5,0.08,0.1,0
+3,shared_anchor,2000,2000,5,0.08,0.1,0
+4,gene_scaling,2000,3000,5,0.08,0.1,0
+5,cell_scaling,500,2000,5,0.08,0.1,0
+6,cell_scaling,1000,2000,5,0.08,0.1,0
+7,cell_scaling,3000,2000,5,0.08,0.1,0
