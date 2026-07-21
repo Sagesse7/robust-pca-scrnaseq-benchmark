@@ -1,0 +1,23 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+
+*.log
+*.aux
+*.fls
+*.fdb_latexmk
+*.out
+*.xdv
+*.synctex.gz
+Rplots.pdf
+
+# Local inputs and generated intermediate analysis objects are not distributed
+# in the lightweight public repository.
+data/*
+!data/README.md
+!data/DATA_MD5SUMS.txt
+Source_Data/
+figures/
+results/
+*.rds
