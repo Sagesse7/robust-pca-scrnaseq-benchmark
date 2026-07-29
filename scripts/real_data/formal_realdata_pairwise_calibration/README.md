@@ -22,6 +22,11 @@ The full dataset determines the 2,000-HVG feature space and gene-wise scaling
 parameters. Each subset is then taken from that fixed standardized matrix so
 that FULL-subset loading comparisons use the same feature coordinates.
 
+Every method is evaluated using scores `X %*% V`, where `X` is the common
+preprocessed matrix and `V` contains the method's loading vectors. PCP
+estimates `V` by applying PCA to its low-rank component `L`, but does not use
+the reconstruction-specific scores `L %*% V`.
+
 ## Inputs
 
 See `../../../data/README.md` from the repository root for the expected input

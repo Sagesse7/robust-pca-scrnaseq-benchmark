@@ -13,6 +13,7 @@ input_dirs <- c(
   Bhattacherjee = arg_value("bhattacherjee-dir", "")
 )
 output_file <- arg_value("output")
+sensitivity_output_file <- arg_value("sensitivity-output")
 
 if (any(is.na(input_dirs)) || any(!nzchar(input_dirs)) || is.null(output_file)) {
   stop(
@@ -50,7 +51,8 @@ required_columns <- list(
   full = c("Replicate", "ClusterRep", "Method", "ARI_gmm_pc10"),
   sample = c(
     "Replicate", "ClusterRep", "Method",
-    "gmm_pc10_ARI_full_vs_subset", "ARI_gmm_pc10"
+    "gmm_pc10_ARI_full_vs_subset", "gmm_pc20_ARI_full_vs_subset",
+    "ARI_gmm_pc10"
   )
 )
 
@@ -115,6 +117,20 @@ derive_dataset <- function(result_dir, dataset_name) {
 
 figure06 <- rbindlist(Map(derive_dataset, input_dirs, names(input_dirs)), use.names = TRUE)
 
+derive_sensitivity <- function(result_dir, dataset_name) {
+  sample_file <- file.path(result_dir, "real_sampling_results_repeated_clustering.csv")
+  sample <- fread(sample_file)
+  if (!all(required_columns$sample %in% names(sample))) {
+    stop("Subset result is missing sensitivity columns for ", dataset_name)
+  }
+  sample[, Method := publication_method(Method)]
+  sample[, DatasetName := dataset_name]
+  sample[, .(
+    PC10 = mean(gmm_pc10_ARI_full_vs_subset),
+    PC20 = mean(gmm_pc20_ARI_full_vs_subset)
+  ), by = .(DatasetName, Method)]
+}
+
 expected_methods <- c(
   "PCA", "PcaGrid", "PcaHubert", "PCP", "K's tau",
   "Winsor", "Quad", "Ball", "Shell", "LR"
@@ -153,6 +169,29 @@ setorder(figure06, DatasetName, Metric, Method, Replicate, ClusterRep, na.last =
 
 dir.create(dirname(output_file), recursive = TRUE, showWarnings = FALSE)
 fwrite(figure06, output_file)
+
+if (!is.null(sensitivity_output_file) && nzchar(sensitivity_output_file)) {
+  sensitivity <- rbindlist(
+    Map(derive_sensitivity, input_dirs, names(input_dirs)),
+    use.names = TRUE
+  )
+  if (!setequal(unique(sensitivity$Method), expected_methods)) {
+    stop("Unexpected sensitivity method set.")
+  }
+  if (nrow(sensitivity) != length(input_dirs) * length(expected_methods)) {
+    stop("Unexpected sensitivity row count.")
+  }
+  if (any(!is.finite(unlist(sensitivity[, .(PC10, PC20)])))) {
+    stop("Sensitivity Source Data contain non-finite values.")
+  }
+  setorder(sensitivity, DatasetName, Method)
+  dir.create(dirname(sensitivity_output_file), recursive = TRUE, showWarnings = FALSE)
+  fwrite(sensitivity, sensitivity_output_file)
+  cat(
+    "Wrote Figure S7 sensitivity Source Data to:\n",
+    normalizePath(sensitivity_output_file), "\n"
+  )
+}
 
 summary <- figure06[, .(
   RawRows = .N,

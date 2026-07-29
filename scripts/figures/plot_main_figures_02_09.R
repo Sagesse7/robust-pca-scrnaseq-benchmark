@@ -66,9 +66,10 @@ q2 <- 2.15
 q3 <- 3.45
 q3s <- 4.15
 r <- seq(0.01, 5.00, by = 0.001)
+pca_reference_weight <- 1 / sqrt(2)
 
 weight_dt <- rbindlist(list(
-  data.table(r, Method = "PCA", Weight = 1),
+  data.table(r, Method = "PCA", Weight = pca_reference_weight),
   data.table(r, Method = "K's tau", Weight = 1 / r),
   data.table(r, Method = "Winsor", Weight = fifelse(r <= q2, 1, q2 / r)),
   data.table(r, Method = "Quad", Weight = fifelse(r <= q2, 1, q2^2 / r^2)),
@@ -88,6 +89,15 @@ weight_cols <- c(
   "LR" = METHOD_COLORS[["LR"]]
 )
 weight_types <- METHOD_LINETYPES[weight_order]
+weight_labels <- c(
+  "PCA" = "PCA reference",
+  "K's tau" = "K's tau reference",
+  "Winsor" = "Winsor",
+  "Quad" = "Quad",
+  "Ball" = "Ball",
+  "Shell" = "Shell",
+  "LR" = "LR"
+)
 threshold_marks <- data.table(
   r = c(q1, q2, q3, q3s),
   Weight = rep(0.075, 4),
@@ -103,8 +113,14 @@ fig02 <- ggplot(weight_dt, aes(r, Weight, colour = Method, linetype = Method)) +
     size = 2.15, colour = "#4E5962", fill = "white",
     linewidth = 0, label.padding = unit(0.45, "mm")
   ) +
-  scale_colour_manual(values = weight_cols, breaks = weight_order) +
-  scale_linetype_manual(values = weight_types, breaks = weight_order) +
+  scale_colour_manual(
+    values = weight_cols, breaks = weight_order,
+    labels = unname(weight_labels[weight_order])
+  ) +
+  scale_linetype_manual(
+    values = weight_types, breaks = weight_order,
+    labels = unname(weight_labels[weight_order])
+  ) +
   scale_x_continuous(
     breaks = 0:5,
     limits = c(0, 5),
@@ -135,7 +151,7 @@ fig02 <- ggplot(weight_dt, aes(r, Weight, colour = Method, linetype = Method)) +
   )
 
 weight_definition <- c(
-  "PCA" = "xi(r) = 1 (PCA-equivalent constant pairwise weight)",
+  "PCA" = "xi(r) = 1/sqrt(2) (exact sample-covariance reference under the ordered-pair normalization)",
   "K's tau" = "xi(r) = 1/r",
   "Winsor" = "xi(r) = 1 for r <= Q2; Q2/r otherwise",
   "Quad" = "xi(r) = 1 for r <= Q2; (Q2/r)^2 otherwise",
@@ -148,7 +164,7 @@ weight_dt[, `:=`(
   Threshold_values_schematic = sprintf("Q1=%.2f; Q2=%.2f; Q3=%.2f; Q3*=%.2f", q1, q2, q3, q3s),
   Visualization_range = sprintf("r from %.2f to %.2f; the right boundary is a plotting limit, not a threshold", min(r), max(r)),
   Threshold_display = "Threshold symbols label schematic transition locations; no full-height threshold guide lines are shown",
-  Source_note = "Illustrative distance axis based on the original Figure 2 composition; thresholds are schematic and are not fitted experimental values. K's tau is the unbounded inverse-distance reference and can exceed the displayed y-range for small r."
+  Source_note = "Illustrative distance axis based on the original Figure 2 composition; thresholds are schematic and are not fitted experimental values. Under the ordered-pair normalization, xi(r)=1/sqrt(2) exactly reproduces the usual sample covariance matrix, whereas xi(r)=1/r recovers ordinary K's tau. The latter can exceed the displayed y-range for small r."
 )]
 
 if (!figure9_only) {

@@ -442,9 +442,10 @@ build_methods <- function(max_pc = 20) {
       k <- min(max_pc, nrow(X), ncol(X))
       rp <- pcp_decompose_fast(X)
       fit <- prcomp(rp$L, center = FALSE, scale. = FALSE)
+      V <- as.matrix(fit$rotation)[, seq_len(k), drop = FALSE]
       list(
-        scores   = as.matrix(fit$x)[, seq_len(k), drop = FALSE],
-        loadings = as.matrix(fit$rotation)[, seq_len(k), drop = FALSE]
+        scores   = X %*% V,
+        loadings = V
       )
     },
     Winsor = function(X) {
@@ -703,10 +704,13 @@ if (dir.exists(OUT_DIR) && length(list.files(OUT_DIR, all.files = TRUE, no.. = T
 }
 dir.create(OUT_DIR, recursive = TRUE, showWarnings = FALSE)
 write.csv(data.frame(
-  code_version = "20260718_pbmc_rna_only_feature_filter", dataset = "PBMCs", hvg = TOP_HVG, subset_n = SUBSET_N, repeats = REPS,
+  code_version = "20260729_public_pcp_xv", dataset = "PBMCs", hvg = TOP_HVG, subset_n = SUBSET_N, repeats = REPS,
   cluster_repeats = CLUSTER_REPS, methods = paste(METHOD_NAMES, collapse = ","),
   calibration = "pairwise_empirical_quantile", alpha = PAIRWISE_ALPHA,
   base_seed = BASE_SEED, workers = WORKERS, data_root = DATA_ROOT,
+  pcp_loading_source = "PCA_on_PCP_low_rank_L",
+  pcp_score_construction = "X_times_V",
+  pbmc_feature_filter = "Gene Expression before normalization and HVG selection",
   stringsAsFactors = FALSE
 ), file.path(OUT_DIR, "run_manifest.csv"), row.names = FALSE)
 PARTIAL_DIR <- file.path(OUT_DIR, "partial_reps")

@@ -145,7 +145,16 @@ if (figure_only == "Figure06") {
 
 stability <- prepare_methods(read_source("Figure07_realdata_subspace_pc10_source_data.csv"))
 stability[, Group := method_group(Method)]
-fig07 <- ggplot(
+stability_counts <- stability[
+  is.finite(subspace_pc10_mean_cos),
+  .N,
+  by = .(DatasetName, Method)
+]
+if (nrow(stability_counts[N != 20L])) {
+  stop("Each Figure 7 dataset-method cell must contain exactly 20 subsets.")
+}
+
+fig07_distribution <- ggplot(
   stability[is.finite(subspace_pc10_mean_cos)],
   aes(Method, subspace_pc10_mean_cos, fill = Group)
 ) +
@@ -179,7 +188,55 @@ fig07 <- ggplot(
     legend.key.width = unit(5.0, "mm"),
     legend.spacing.x = unit(1.2, "mm")
   )
-save_pub_r(fig07, fig_path("Real_data", "Figure07_realdata_subspace_pc10"), 183, 78)
+
+stability_ranks <- stability[
+  is.finite(subspace_pc10_mean_cos),
+  .(Median = median(subspace_pc10_mean_cos)),
+  by = .(DatasetName, Method)
+]
+stability_ranks[, Rank := frank(-Median, ties.method = "average"),
+                by = DatasetName]
+stability_ranks[, `:=`(
+  Label = sprintf("%.0f\n%.5f", Rank, Median),
+  TextColour = ifelse(Rank >= 6, "white", "#151515")
+)]
+
+fig07_rank <- ggplot(
+  stability_ranks,
+  aes(DatasetName, Method, fill = Rank)
+) +
+  geom_tile(colour = "white", linewidth = 0.30) +
+  geom_text(
+    aes(label = Label, colour = TextColour),
+    lineheight = 0.90, size = 1.72, show.legend = FALSE
+  ) +
+  scale_colour_identity() +
+  scale_y_discrete(limits = rev(METHOD_ORDER), labels = METHOD_LABELS) +
+  scale_fill_viridis_c(
+    option = "E", direction = -1, limits = c(1, 10),
+    breaks = c(1, 5, 10),
+    name = "Rank by median\n(lower is better)"
+  ) +
+  labs(x = NULL, y = NULL) +
+  theme_heatmap(6.2) +
+  theme(
+    axis.text.x = element_text(
+      angle = 0, hjust = 0.5, vjust = 0.5, face = "bold"
+    ),
+    legend.position = "right",
+    legend.title = element_text(size = 5.8),
+    legend.text = element_text(size = 5.6)
+  )
+
+fig07 <- fig07_distribution / fig07_rank +
+  plot_layout(heights = c(0.95, 1.05)) +
+  plot_annotation(tag_levels = "a") &
+  theme(plot.tag = element_text(size = 8, face = "bold"))
+save_pub_r(
+  fig07,
+  fig_path("Real_data", "Figure07_realdata_subspace_pc10"),
+  183, 150
+)
 
 if (figure_only == "Figure06_07") {
   cat("Regenerated Figures 6 and 7 from Source Data.\n")

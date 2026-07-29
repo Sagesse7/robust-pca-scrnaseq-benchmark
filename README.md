@@ -34,6 +34,10 @@ not tracked in this repository.
 - 2,000 HVGs, 20 subset repeats, and 10 clustering repeats for each real dataset.
 - PBMC raw rows are restricted to `feature_type == "Gene Expression"` before
   library-size normalization, log transformation, HVG selection, and scaling.
+- For every method, downstream scores are constructed as `X %*% V` from the
+  common preprocessed matrix `X` and estimated loadings `V`. For PCP, `V` is
+  estimated by applying PCA to its low-rank component `L`; `L %*% V` is not
+  used for clustering or evaluation.
 - GMM as the primary clustering evaluation; k-means and Louvain as supplementary analyses.
 - Master/base seed `12345` unless explicitly overridden.
 

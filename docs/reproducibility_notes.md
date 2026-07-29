@@ -43,6 +43,10 @@ figures and derived summaries.
 - Supplementary clustering methods: k-means and Louvain.
 - The 2,000-HVG set and gene-wise scaling parameters are estimated from the FULL
   dataset and then held fixed for all subsets within that dataset.
+- All real-data methods return loading vectors `V`, and all clustering and
+  annotation-agreement evaluations use scores `X %*% V` from the same
+  preprocessed matrix `X`. PCP estimates `V` by applying PCA to the PCP
+  low-rank component `L`, but its evaluation scores are also `X %*% V`.
 
 ## Seed policy
 
