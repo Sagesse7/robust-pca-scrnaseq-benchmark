@@ -27,7 +27,7 @@ and preprocessing.
 - `../../simulation/formal_background_dropout_simulation/R/`: shared method
   and simulation implementations used by both simulation and runtime analyses.
 
-The public consolidated replicate-level and summary results are in
+The manuscript replicate-level and summary Source Data files are
 `../../../Source_Data/runtime_benchmark_results_matched.csv` and
 `../../../Source_Data/runtime_benchmark_summary_matched.csv`. Institution-specific
 scheduler wrappers and individual job files are intentionally excluded.

@@ -8,8 +8,9 @@ These scripts implement the PBMCs, Pancreas, and Bhattacherjee analyses.
 - Pairwise empirical-quantile calibration with `alpha = 0.05`.
 - 2,000 HVGs for all three datasets.
 - PC10 main analysis and PC20 sensitivity analysis.
-- Twenty subset repeats and ten within-replicate clustering repeats.
-- GMM, k-means, and Louvain outputs; GMM is the primary manuscript analysis.
+- Twenty randomly sampled subsets and ten clustering runs per embedding.
+- GMM, k-means, and Louvain outputs; GMM with candidate component counts
+  `G = 1:15` is the primary manuscript analysis.
 - Subset sizes: PBMCs 400, Pancreas 2,000, and Bhattacherjee 10,000.
 
 For PBMCs, the third column of the 10x `features.tsv` file is required. Raw
@@ -22,10 +23,14 @@ The full dataset determines the 2,000-HVG feature space and gene-wise scaling
 parameters. Each subset is then taken from that fixed standardized matrix so
 that FULL-subset loading comparisons use the same feature coordinates.
 
-Every method is evaluated using scores `X %*% V`, where `X` is the common
-preprocessed matrix and `V` contains the method's loading vectors. PCP
-estimates `V` by applying PCA to its low-rank component `L`, but does not use
-the reconstruction-specific scores `L %*% V`.
+Downstream scores are computed as `X %*% V`, where `X` is the common
+preprocessed matrix and `V` contains the method's loading vectors, except for
+PcaHubert, which uses the centered scores returned by `rrcov`. This difference
+is a constant location shift: clustering comparisons are translation
+invariant, and subspace comparisons use `V` directly. PCP estimates `V` using
+an uncentered, unscaled PCA of its low-rank component `L`, implemented as
+`prcomp(L, center = FALSE, scale. = FALSE)`, but does not use the
+reconstruction-specific scores `L %*% V`.
 
 ## Inputs
 

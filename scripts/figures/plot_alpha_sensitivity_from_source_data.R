@@ -19,6 +19,17 @@ output_dir <- if (length(args)) args[1] else file.path(release_root, "figures", 
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
 z <- fread(file.path(release_root, "Source_Data", "FigureS08_alpha_sensitivity_source_data.csv"))
+# Count repeated representations of the midpoint-0 background and shared
+# mean-shift anchor once in each pooled condition-level summary.
+z <- z[
+  !(Dataset == "Simulation 1" & ParamID %in% c(1L, 18L)) &
+  !(Dataset == "Simulation 2" & ParamID == 18L)
+]
+stopifnot(
+  uniqueN(z[Dataset == "Simulation 1"]$ParamID) == 19L,
+  uniqueN(z[Dataset == "Simulation 2"]$ParamID) == 19L,
+  nrow(z) == 1140L
+)
 z[, Method := factor(Method, levels = PROPOSED_METHODS)]
 z[, AlphaLabel := factor(
   sprintf("%.2f", Alpha), levels = c("0.10", "0.20"),
@@ -62,9 +73,9 @@ delta_panel <- function(data, outcomes, y_limits, y_breaks, title) {
 }
 
 p_a <- delta_panel(z, "GMM ARI", c(-0.075, 0.34), c(-0.05, 0, 0.1, 0.2, 0.3),
-                   "GMM clustering sensitivity")
+                   NULL)
 p_b <- delta_panel(z, "GMM NMI", c(-0.06, 0.27), c(-0.05, 0, 0.1, 0.2),
-                   "GMM clustering sensitivity")
+                   NULL)
 p_c <- delta_panel(z, c("k-means ARI", "Louvain ARI"), c(-0.055, 0.055),
                    c(-0.05, 0, 0.05), "Alternative clustering algorithms")
 p_d <- delta_panel(z, c("Subspace PC10", "Subspace PC20"), c(-0.055, 0.055),

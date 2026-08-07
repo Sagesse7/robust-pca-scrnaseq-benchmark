@@ -204,7 +204,10 @@ if (!file.exists(method_summary_file)) stop("Missing Figure 9 summary data: ", m
 method_summary <- fread(method_summary_file)
 method_summary[, Proposed := Method %in% c("Winsor", "Quad", "Ball", "Shell", "LR")]
 
-metric_cols <- c("Doublet / mean shift", "Dropout", "PC-wise", "Subspace", "Clustering")
+metric_cols <- c(
+  "Doublets / mean shifts", "Dropout", "PC-wise", "Subspace", "Clustering",
+  "Runtime"
+)
 score_fill <- c("+" = "#DCECE7", "+/-" = "#EEE9D7", "-" = "#E8EAEC")
 score_label <- c("+" = "+", "+/-" = "±", "-" = "−")
 
@@ -213,7 +216,7 @@ draw_figure09 <- function() {
   grid.rect(gp = gpar(fill = "white", col = NA))
   x0 <- 0.025
   x1 <- 0.985
-  widths <- c(0.115, 0.16, 0.16, rep(0.113, 5))
+  widths <- c(0.12, 0.19, rep(0.115, 6))
   widths <- widths / sum(widths) * (x1 - x0)
   edges <- c(x0, x0 + cumsum(widths))
   centers <- (head(edges, -1) + tail(edges, -1)) / 2
@@ -221,10 +224,11 @@ draw_figure09 <- function() {
   group_y0 <- 0.925
   group_y1 <- 0.985
   group_spec <- list(
-    c(1, 3, "Method characteristics", "#F1F1F1"),
-    c(4, 5, "Robustness", "#F1F1F1"),
-    c(6, 7, "Stability", "#F1F1F1"),
-    c(8, 8, "Clustering", "#F1F1F1")
+    c(1, 2, "Method characteristics", "#F1F1F1"),
+    c(3, 4, "GMM clustering", "#F1F1F1"),
+    c(5, 6, "Stability", "#F1F1F1"),
+    c(7, 7, "Clustering", "#F1F1F1"),
+    c(8, 8, "Feasibility", "#F1F1F1")
   )
   for (g in group_spec) {
     a <- as.integer(g[[1]]); b <- as.integer(g[[2]])
@@ -240,14 +244,14 @@ draw_figure09 <- function() {
               gp = gpar(fontfamily = "Arial", fontsize = 8.2, fontface = "bold", col = "#26323A"))
   }
 
-  headers <- c("Method", "Core estimator", "Mechanism", metric_cols)
+  headers <- c("Method", "Mechanism", metric_cols)
   header_y0 <- 0.865
   header_y1 <- group_y0
   for (j in seq_along(headers)) {
     grid.rect(x = unit(centers[j], "npc"), y = unit((header_y0 + header_y1) / 2, "npc"),
               width = unit(widths[j], "npc"), height = unit(header_y1 - header_y0, "npc"),
               gp = gpar(fill = "#FAFAFA", col = "white", lwd = 0.8))
-    header_label <- if (headers[j] == "Doublet / mean shift") "Doublet /\nmean shift" else headers[j]
+    header_label <- if (headers[j] == "Doublets / mean shifts") "Doublets /\nmean shifts" else headers[j]
     grid.text(header_label, unit(centers[j], "npc"), unit((header_y0 + header_y1) / 2, "npc"),
               gp = gpar(fontfamily = "Arial", fontsize = 7.1, fontface = "bold", col = "#30363B",
                         lineheight = 0.92))
@@ -261,19 +265,19 @@ draw_figure09 <- function() {
     yb <- yt - row_h
     yc <- (yt + yb) / 2
     char_fill <- "#FFFFFF"
-    vals <- c(method_summary$Method[i], method_summary$Estimator[i], method_summary$Mechanism[i])
+    vals <- c(method_summary$Method[i], method_summary$Mechanism[i])
     if (method_summary$Proposed[i]) vals[1] <- paste0("* ", vals[1])
-    for (j in 1:3) {
+    for (j in 1:2) {
       grid.rect(unit(centers[j], "npc"), unit(yc, "npc"),
                 width = unit(widths[j], "npc"), height = unit(row_h, "npc"),
                 gp = gpar(fill = char_fill, col = "#D8DDE1", lwd = 0.45))
       grid.text(vals[j], unit(centers[j], "npc"), unit(yc, "npc"),
-                gp = gpar(fontfamily = "Arial", fontsize = if (j == 1) 7.4 else 6.9,
+                gp = gpar(fontfamily = "Arial", fontsize = if (j == 1) 7.7 else 7.2,
                           fontface = if (j == 1) "bold" else "plain",
                           col = "#252A2E", lineheight = 0.92))
     }
     for (k in seq_along(metric_cols)) {
-      j <- k + 3
+      j <- k + 2
       raw_score <- method_summary[[metric_cols[k]]][i]
       grid.rect(unit(centers[j], "npc"), unit(yc, "npc"),
                 width = unit(widths[j], "npc"), height = unit(row_h, "npc"),
@@ -284,12 +288,13 @@ draw_figure09 <- function() {
   }
 
   evidence <- c(
-    "Evidence", "", "",
-    "Fig. 3;\nSupp. S1–S3",
-    "Fig. 3;\nSupp. Table S3",
-    "Supp. S4–S5",
+    "Evidence", "",
+    "Fig. 3;\nFigs. S1–S3",
+    "Fig. 3;\nTable S3",
+    "Figs. S4–S5",
     "Figs. 4–5, 7",
-    "Figs. 3, 6;\nSupp. S1–S3"
+    "Figs. 3, 6;\nFigs. S1–S3",
+    "Fig. 8"
   )
   ev_y0 <- 0.075
   ev_y1 <- body_y0
@@ -301,7 +306,7 @@ draw_figure09 <- function() {
               gp = gpar(fontfamily = "Arial", fontsize = if (j == 1) 6.4 else 6.0,
                         fontface = if (j == 1) "bold" else "plain", col = "#4B555D"))
   }
-  grid.text("* Proposed methods     + relatively strong     ± mixed or condition-dependent     − relatively weak",
+  grid.text("* Proposed methods     + relatively favorable     ± mixed or condition-dependent     − relatively weak",
             unit(x0, "npc"), unit(0.038, "npc"), just = "left",
             gp = gpar(fontfamily = "Arial", fontsize = 6.1, col = "#4B555D"))
 }

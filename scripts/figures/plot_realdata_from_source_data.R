@@ -74,43 +74,49 @@ full_summary <- full_runs[, .(
   Mean = mean(ARI),
   Minimum = min(ARI),
   Maximum = max(ARI)
-), by = .(DatasetName, Method, Metric, Group)]
+), by = .(DatasetName, Method, Group)]
 
-metric_labels <- c(
-  "FULL vs subset" = "FULL vs subset\n20 subset means",
-  "FULL vs labels" = "FULL vs labels\n10 clustering runs",
-  "Subset vs labels" = "Subset vs labels\n20 subset means"
+comparison_levels <- c("FULL vs subset", "Subset vs labels")
+comparison_labels <- c(
+  "FULL vs subset" = "FULL vs subset",
+  "Subset vs labels" = "Subset vs labels"
 )
 
-fig06 <- ggplot(mapping = aes(Method, fill = Group)) +
-  geom_boxplot(
-    data = subset_level, aes(y = ARI),
-    outlier.shape = NA, width = 0.64, linewidth = 0.32
+comparison_data <- subset_level[
+  as.character(Metric) %in% comparison_levels
+]
+comparison_data[, `:=`(
+  Comparison = factor(as.character(Metric), levels = comparison_levels)
+)]
+full_summary[, `:=`(
+  Comparison = factor("Subset vs labels", levels = comparison_levels)
+)]
+
+fig06 <- ggplot(
+  comparison_data,
+  aes(x = Method, y = ARI, fill = Group)
+) +
+  geom_boxplot(outlier.shape = NA, width = 0.62, linewidth = 0.32) +
+  geom_point(
+    aes(colour = Group),
+    position = position_jitter(width = 0.09, height = 0, seed = 601L),
+    alpha = 0.38, size = 0.40
+  ) +
+  geom_errorbar(
+    data = full_summary,
+    aes(x = Method, ymin = Minimum, ymax = Maximum),
+    inherit.aes = FALSE, width = 0.16,
+    colour = "#666666", linewidth = 0.34
   ) +
   geom_point(
-    data = subset_level, aes(y = ARI, colour = Group),
-    position = position_jitter(width = 0.10, height = 0, seed = 601L),
-    alpha = 0.48, size = 0.46
-  ) +
-  geom_linerange(
     data = full_summary,
-    aes(ymin = Minimum, ymax = Maximum, colour = Group),
-    linewidth = 0.42
-  ) +
-  geom_crossbar(
-    data = full_summary,
-    aes(y = Mean, ymin = Mean, ymax = Mean),
-    width = 0.46, linewidth = 0.42, colour = "#202020"
-  ) +
-  geom_point(
-    data = full_runs, aes(y = ARI, colour = Group),
-    position = position_jitter(width = 0.14, height = 0, seed = 602L),
-    shape = 21, stroke = 0.20, alpha = 0.82, size = 0.72,
-    show.legend = FALSE
+    aes(x = Method, y = Mean, shape = "FULL-label mean"),
+    inherit.aes = FALSE, size = 1.18, stroke = 0.34,
+    colour = "#4A4A4A", fill = "white"
   ) +
   facet_grid(
-    Metric ~ DatasetName,
-    labeller = labeller(Metric = as_labeller(metric_labels))
+    Comparison ~ DatasetName,
+    labeller = labeller(Comparison = as_labeller(comparison_labels))
   ) +
   scale_x_discrete(labels = METHOD_LABELS) +
   scale_fill_manual(
@@ -118,25 +124,36 @@ fig06 <- ggplot(mapping = aes(Method, fill = Group)) +
     breaks = c("Reference", "Proposed"),
     labels = c("Reference methods", "Proposed methods")
   ) +
-  scale_colour_manual(
-    values = METHOD_GROUP_POINTS,
-    breaks = c("Reference", "Proposed"),
-    labels = c("Reference methods", "Proposed methods")
-  ) +
+  scale_colour_manual(values = METHOD_GROUP_POINTS) +
+  scale_shape_manual(values = c("FULL-label mean" = 23), name = NULL) +
   scale_y_continuous(breaks = c(0, 0.5, 1)) +
   coord_cartesian(ylim = c(-0.05, 1.02)) +
   labs(x = NULL, y = "Adjusted Rand index", fill = NULL) +
-  guides(colour = "none") +
-  theme_journal(6.2) +
+  guides(
+    colour = "none",
+    fill = guide_legend(order = 1),
+    shape = guide_legend(
+      order = 2,
+      override.aes = list(size = 1.35, colour = "#4A4A4A", fill = "white")
+    )
+  ) +
+  theme_journal(6.25) +
   theme(
+    panel.grid.major.y = element_line(colour = "#E5E5E5", linewidth = 0.25),
+    panel.grid.minor = element_blank(),
     axis.text.x = element_text(angle = 45, hjust = 1),
+    strip.text.x = element_text(size = 6.3, face = "bold"),
+    strip.text.y = element_text(size = 6.2, face = "bold", angle = 270),
+    strip.background = element_rect(fill = "#F3F3F3", colour = NA),
     legend.position = "top",
     legend.text = element_text(size = 6.2),
     legend.key.width = unit(5.0, "mm"),
     legend.spacing.x = unit(1.2, "mm"),
-    panel.spacing = unit(1.4, "mm")
+    panel.spacing.x = unit(1.8, "mm"),
+    panel.spacing.y = unit(1.5, "mm")
   )
-save_pub_r(fig06, fig_path("Real_data", "Figure06_realdata_gmm_pc10_ari"), 183, 135)
+
+save_pub_r(fig06, fig_path("Real_data", "Figure06_realdata_gmm_pc10_ari"), 183, 108)
 
 if (figure_only == "Figure06") {
   cat("Regenerated Figure 6 from hierarchical Source Data.\n")

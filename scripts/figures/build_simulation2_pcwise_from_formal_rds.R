@@ -182,19 +182,19 @@ make_sweeps <- function(dt) {
       data = copy(dt[ParamID %in% 7:11])[, level := as.character(doublet_frac)],
       levels = as.character(c(0.02, 0.05, 0.08, 0.10, 0.15)),
       labels = c("2%", "5%", "8%", "10%", "15%"),
-      title = "Doublet", xlab = "Doublet fraction"
+      title = "Synthetic doublets", xlab = "Doublet fraction"
     ),
     shift_fraction = list(
       data = copy(dt[ParamID %in% 12:16])[, level := as.character(cell_frac)],
       levels = as.character(c(0.02, 0.04, 0.06, 0.08, 0.10)),
       labels = c("2%", "4%", "6%", "8%", "10%"),
-      title = "Affected-cell fraction", xlab = "Affected-cell fraction"
+      title = "Gene-subset mean shift", xlab = "Shifted-cell fraction"
     ),
     shift_factor = list(
       data = copy(dt[ParamID %in% 17:21])[, level := as.character(meanlog)],
       levels = as.character(c(1.5, 2, 3, 4, 5)),
       labels = c("1.5", "2", "3", "4", "5"),
-      title = "Mean-log shift", xlab = "Mean-log shift"
+      title = "Gene-subset mean shift", xlab = "Shift magnitude"
     )
   )
 }
@@ -232,8 +232,9 @@ fwrite(
 )
 
 publication_summary <- copy(figure_source)
+setnames(publication_summary, "Noise", "PerturbationCondition")
 publication_summary[, MethodOrder := match(Method, PUBLICATION_METHOD_ORDER)]
-setorder(publication_summary, Noise, Level, MethodOrder)
+setorder(publication_summary, PerturbationCondition, Level, MethodOrder)
 publication_summary[, MethodOrder := NULL]
 fwrite(
   publication_summary,
@@ -335,8 +336,8 @@ rank_panel <- function(spec, key) {
   }
 
   ranks[, `:=`(
-    Label = ifelse(is.na(Rank), "NR", sprintf("%.1f", Rank)),
-    TextColour = ifelse(!is.na(Rank) & Rank <= 4, "white", "#151515"),
+    Label = ifelse(is.na(Rank), "NR", sprintf("%.0f", Rank)),
+    TextColour = ifelse(!is.na(Rank) & Rank >= 6, "white", "#151515"),
     Noise = spec$xlab
   )]
 
@@ -376,10 +377,11 @@ rank_results <- Map(rank_panel, sweeps, names(sweeps))
 rank_source <- rbindlist(lapply(rank_results, `[[`, "source"))
 rank_source[, NoiseOrder := match(
   Noise,
-  c("Dropout midpoint", "Doublet fraction", "Affected-cell fraction", "Mean-log shift")
+  c("Dropout midpoint", "Doublet fraction", "Shifted-cell fraction", "Shift magnitude")
 )]
 setorder(rank_source, NoiseOrder, LevelOrder, MethodOrder)
 rank_source[, c("NoiseOrder", "LevelOrder", "MethodOrder", "TextColour") := NULL]
+setnames(rank_source, "Noise", "PerturbationCondition")
 fwrite(
   rank_source,
   file.path(source_data_dir, "FigureS05_simulation2_pcwise_rank_source_data.csv")

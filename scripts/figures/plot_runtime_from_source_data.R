@@ -114,7 +114,7 @@ cell_panel <- runtime_panel(
 
 combined <- (gene_panel | cell_panel) +
   plot_layout(guides = "collect", widths = c(1, 1)) +
-  plot_annotation(tag_levels = "A") &
+  plot_annotation(tag_levels = "a") &
   theme(
     legend.position = "bottom",
     legend.key.width = unit(5.4, "mm"),

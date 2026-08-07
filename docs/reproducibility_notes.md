@@ -2,21 +2,24 @@
 
 ## Source of reported results
 
-The curated manuscript Source Data are deposited with the paper rather than
-duplicated in this code repository. They are the numerical basis for the
-reported figures and Supplementary tables. After downloading them into
+The curated manuscript Source Data are supplied separately with the submission
+rather than duplicated in this code repository. They are the numerical basis
+for the reported figures and Supplementary tables. After placing them in
 `Source_Data/`, the supplied figure scripts regenerate the corresponding
 figures and derived summaries.
 
 ## Simulation settings
 
-- Simulation 1 contains 21 tasks.
-- Each Simulation 1 task has 10 independent repeats.
-- Simulation 1/2 use corrected doublet generation from unmodified singlet donors.
+- The clustering simulation (`simulation1` in the code) contains 21 task IDs:
+  20 displayed settings and one duplicate midpoint-0 background/reference task
+  retained for provenance.
+- Each simulation setting has 10 independent replicates.
+- The clustering and stability simulations use corrected synthetic-doublet
+  generation from unmodified singlet donors.
 - Splatter clean-base generation uses `dropout.type = "none"`.
 - Main proposed-method calibration uses `alpha = 0.05`.
 - `alpha = 0.10` and `alpha = 0.20` are used only as sensitivity analyses.
-- For Simulation 1 k-means summaries, each simulation replicate contains 20
+- For clustering-simulation k-means summaries, each simulation replicate contains 20
   k-means runs with `nstart = 10`; the replicate-level value is their mean.
 - Louvain analyses standardize the retained PC coordinates before constructing
   the SNN graph; GMM and k-means use the retained PC scores directly.
@@ -43,10 +46,14 @@ figures and derived summaries.
 - Supplementary clustering methods: k-means and Louvain.
 - The 2,000-HVG set and gene-wise scaling parameters are estimated from the FULL
   dataset and then held fixed for all subsets within that dataset.
-- All real-data methods return loading vectors `V`, and all clustering and
-  annotation-agreement evaluations use scores `X %*% V` from the same
-  preprocessed matrix `X`. PCP estimates `V` by applying PCA to the PCP
-  low-rank component `L`, but its evaluation scores are also `X %*% V`.
+- All real-data methods return loading vectors `V`. Downstream scores are
+  `X %*% V` except for PcaHubert, which uses the centered scores returned by
+  `rrcov`, corresponding to projection after subtraction of its fitted robust
+  center. This is a constant location shift: clustering comparisons are
+  translation invariant, and subspace comparisons use `V` directly. PCP
+  estimates `V` using an uncentered, unscaled PCA of the PCP low-rank component
+  `L` (`prcomp(L, center = FALSE, scale. = FALSE)`), but its evaluation scores
+  are also `X %*% V`.
 
 ## Seed policy
 
@@ -70,7 +77,7 @@ Server resources used in the formal runs:
 
 | Analysis type | OpenMP slots per job | Memory request |
 |---|---:|---:|
-| Simulation 1/2 formal jobs | 1 | 8 GB per slot |
+| Clustering- and stability-simulation formal jobs | 1 | 8 GB per slot |
 | Simulation aggregation jobs | 1 | 4--8 GB per slot |
 | PBMCs real-data pairwise jobs | 5 | 8 GB per slot |
 | Pancreas real-data pairwise jobs | 5 | 8 GB per slot |
@@ -80,6 +87,18 @@ Local figure generation and manuscript assembly were recorded under R 4.5.0 on
 macOS. The recorded environments are provided in `environment/`, including the
 formal-server session and package records and the figure-generation session and
 package records.
+
+## Subspace--clustering complementarity
+
+Supplementary Table S4 matches clustering-simulation outcomes to stability-simulation
+PC10 subspace similarity by `ParamID` and `Method` after averaging each metric
+across 10 independent replicates. The shared condition with 2% shifted cells and
+a shift magnitude of 2 is displayed in both mean-shift sweeps but counted once
+in this analysis. The resulting 19 unique conditions include the
+`dropout.mid = 0` identity reference. Spearman correlations between subspace
+similarity and ARI are reported for all 190 condition--method means and again
+after excluding the 19 PcaGrid means ($n=171$). The six correlations are
+descriptive; no hypothesis tests or fitted regression models are used.
 
 ## Runtime interpretation
 

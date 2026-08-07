@@ -62,14 +62,14 @@ noise_specs <- list(
     param_ids = 12:16,
     levels = as.character(c(0.02, 0.04, 0.06, 0.08, 0.10)),
     labels = c("2%", "4%", "6%", "8%", "10%"),
-    title = "Affected-cell fraction",
+    title = "Shifted-cell fraction",
     column = "cell_frac"
   ),
   shift_factor = list(
     param_ids = 17:21,
     levels = as.character(c(1.5, 2, 3, 4, 5)),
     labels = c("1.5", "2", "3", "4", "5"),
-    title = "Mean-log shift",
+    title = "Shift magnitude",
     column = "meanlog"
   )
 )
@@ -120,6 +120,7 @@ source_dt <- copy(plot_dt)
 source_dt[, Method := publication_method(Method)]
 setnames(source_dt, "LevelLabel", "Level")
 source_dt <- source_dt[, .(Metric, Noise, Level, Method, Mean, SD, N)]
+setnames(source_dt, "Noise", "PerturbationCondition")
 fwrite(source_dt, source_out)
 
 fig <- ggplot(plot_dt, aes(LevelKey, Method, fill = Mean)) +

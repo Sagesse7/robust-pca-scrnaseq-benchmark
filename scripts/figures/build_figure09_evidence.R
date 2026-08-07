@@ -50,6 +50,7 @@ sim1 <- read_source("simulation_figures_input_alpha005.csv")
 sim2 <- read_source("subspace_figures_input_alpha005.csv")
 real_clustering <- read_source("Figure06_realdata_gmm_pc10_ari_source_data.csv")
 real_subspace <- read_source("Figure07_realdata_subspace_pc10_source_data.csv")
+runtime <- read_source("Figure08_runtime_scaling_source_data.csv")
 simulation_pcwise <- read_source(
   "FigureS04_simulation2_pcwise_pc10_replicate_source_data.csv"
 )
@@ -116,8 +117,25 @@ real_clustering_summary <- rank_summary(
   real_clustering, "ARI", c("DatasetName", "Metric")
 )
 
+# Runtime evidence from Figure 8. The n = 2000, d = 2000 anchor appears in
+# both plotted panels, so it is counted once in the numerical summary below.
+runtime_unique <- unique(runtime[, .(
+  Method, Cell, Gene, MedianRuntimeSec
+)])
+runtime_unique <- runtime_unique[is.finite(MedianRuntimeSec)]
+runtime_unique[, RuntimeRank := frank(
+  MedianRuntimeSec, ties.method = "average"
+), by = .(Cell, Gene)]
+runtime_summary <- runtime_unique[, .(
+  Runtime_median_sec = median(MedianRuntimeSec),
+  Runtime_max_sec = max(MedianRuntimeSec),
+  Runtime_mean_rank = mean(RuntimeRank),
+  Runtime_n_settings = .N
+), by = Method]
+
 dimension_order <- c(
-  "Doublet / mean shift", "Dropout", "PC-wise", "Subspace", "Clustering"
+  "Doublets / mean shifts", "Dropout", "PC-wise", "Subspace", "Clustering",
+  "Runtime"
 )
 
 rating_for <- function(method, dimension) {
@@ -126,7 +144,25 @@ rating_for <- function(method, dimension) {
   sub("^\\+/-$", "±", raw[[1]])
 }
 
-rationale_for <- function(rating) {
+rationale_for <- function(rating, dimension) {
+  if (dimension == "Runtime") {
+    return(switch(
+      rating,
+      "+" = paste(
+        "The '+' symbol records relatively favorable feasibility in the tested",
+        "single-threaded benchmark; it is not a universal speed claim."
+      ),
+      "±" = paste(
+        "The '±' symbol records intermediate runtime in the tested",
+        "single-threaded benchmark."
+      ),
+      "-" = paste(
+        "The '-' symbol records computational constraint as scale increased in",
+        "the tested single-threaded implementation."
+      ),
+      stop("Unknown qualitative rating: ", rating)
+    ))
+  }
   switch(
     rating,
     "+" = paste(
@@ -165,16 +201,20 @@ for (method in required_methods) {
       Real_data_mean_value = NA_real_,
       Real_data_mean_rank = NA_real_,
       Real_data_n_comparisons = NA_integer_,
+      Runtime_median_sec = NA_real_,
+      Runtime_max_sec = NA_real_,
+      Runtime_mean_rank = NA_real_,
+      Runtime_n_settings = NA_integer_,
       Major_observation = NA_character_,
-      Why_this_supports_the_rating = rationale_for(rating),
+      Why_this_supports_the_rating = rationale_for(rating, dimension),
       Evidence_status = "quantitatively derived; qualitative rating curated",
       Interpretation_rule = paste(
-        "+ = relatively strong; ± = mixed or condition-dependent;",
+        "+ = relatively favorable; ± = mixed or condition-dependent;",
         "- = relatively weak"
       )
     )
 
-    if (dimension == "Doublet / mean shift") {
+    if (dimension == "Doublets / mean shifts") {
       row[, `:=`(
         Figure = "Figure 3",
         Metric = "GMM PC10 ARI/NMI",
@@ -259,6 +299,28 @@ for (method in required_methods) {
         Simulation_n_comparisons, fmt(Real_data_mean_rank),
         Real_data_n_comparisons
       )]
+    } else if (dimension == "Runtime") {
+      row[, `:=`(
+        Figure = "Figure 8",
+        Metric = paste(
+          "Single-threaded fit plus 20-PC score-construction runtime;",
+          "median seconds across five matched replicates"
+        ),
+        Runtime_median_sec = lookup(runtime_summary, method, "Runtime_median_sec"),
+        Runtime_max_sec = lookup(runtime_summary, method, "Runtime_max_sec"),
+        Runtime_mean_rank = lookup(runtime_summary, method, "Runtime_mean_rank"),
+        Runtime_n_settings = as.integer(lookup(
+          runtime_summary, method, "Runtime_n_settings"
+        ))
+      )]
+      row[, Major_observation := sprintf(
+        paste0(
+          "Median runtime %s s across %d unique scale settings; maximum %s s; ",
+          "mean within-setting runtime rank %s (lower is faster)."
+        ),
+        fmt(Runtime_median_sec, 3), Runtime_n_settings,
+        fmt(Runtime_max_sec, 3), fmt(Runtime_mean_rank)
+      )]
     }
     rows[[ii]] <- row
   }
@@ -271,8 +333,8 @@ setorder(evidence, Dimension, Method)
 evidence[, `:=`(Dimension = as.character(Dimension), Method = as.character(Method))]
 
 stopifnot(
-  nrow(evidence) == 50L,
-  uniqueN(evidence[, .(Method, Dimension)]) == 50L,
+  nrow(evidence) == 60L,
+  uniqueN(evidence[, .(Method, Dimension)]) == 60L,
   !anyNA(evidence$Rating),
   !anyNA(evidence$Major_observation)
 )
@@ -280,4 +342,4 @@ stopifnot(
 output_file <- file.path(source_data_dir, "Figure09_evidence_table.csv")
 fwrite(evidence, output_file, na = "")
 cat("Figure 9 evidence table written to:", output_file, "\n")
-cat("Rows:", nrow(evidence), "(10 methods x 5 dimensions)\n")
+cat("Rows:", nrow(evidence), "(10 methods x 6 dimensions)\n")
