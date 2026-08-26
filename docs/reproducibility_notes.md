@@ -16,6 +16,10 @@ figures and derived summaries.
 - Each simulation setting has 10 independent replicates.
 - The clustering and stability simulations use corrected synthetic-doublet
   generation from unmodified singlet donors.
+- For gene-subset mean shifts, the parameter grid's legacy `meanlog` field
+  stores the desired median multiplicative factor `m`; the simulation function
+  uses `meanlog = log(m)` and `sdlog = 0.3`. The shift-magnitude sweep uses
+  `m = 1.5, 2, 3, 4, 5`, and the shifted-cell-fraction sweep fixes `m = 2`.
 - Splatter clean-base generation uses `dropout.type = "none"`.
 - Main proposed-method calibration uses `alpha = 0.05`.
 - `alpha = 0.10` and `alpha = 0.20` are used only as sensitivity analyses.
@@ -44,6 +48,9 @@ figures and derived summaries.
 - Sensitivity dimensionality: PC20.
 - Main clustering method: GMM.
 - Supplementary clustering methods: k-means and Louvain.
+- Reference labels are used for label-agreement analyses and to set the number
+  of centers in the k-means sensitivity analysis. They are not used for
+  dimensionality reduction, GMM clustering, or Louvain clustering.
 - The 2,000-HVG set and gene-wise scaling parameters are estimated from the FULL
   dataset and then held fixed for all subsets within that dataset.
 - All real-data methods return loading vectors `V`. Downstream scores are

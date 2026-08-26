@@ -1,30 +1,25 @@
-# Formal background-dropout simulation workflows
+# Simulation workflows
 
-This directory provides the clustering simulation (`simulation1` in the code)
-and stability simulation (`simulation2` in the code), using pairwise
-empirical-quantile calibration and an explicit common background-dropout design.
+This directory contains the clustering simulation (`simulation1` in the code)
+and stability simulation (`simulation2`).
 
-Design summary:
+## Design
 
-- Base data are generated with Splatter using `dropout.type = "none"`.
-- For the reference, synthetic-doublet, and gene-subset mean-shift conditions,
-  a common background dropout level is applied with `dropout_mid = 0`.
-- For the dropout sweep, the specified `dropout_mid` value is applied directly
-  to the no-dropout base data. Dropout is not stacked twice.
-- Proposed generalized K's tau variants use pairwise empirical-quantile cutoffs.
-  The main analysis uses `alpha = 0.05`; `0.10` and `0.20` are sensitivity
-  settings only.
+- Splatter base counts are generated with `dropout.type = "none"`.
+- Reference, synthetic-doublet, and gene-subset mean-shift conditions share
+  background dropout with `dropout_mid = 0`.
+- The dropout sweep applies each specified midpoint directly to the base counts.
+- The parameter grid's legacy `meanlog` field stores the median multiplicative
+  factor `m`; the code uses `meanlog = log(m)` and `sdlog = 0.3`.
+- Generalized K's tau cutoffs use empirical pairwise-distance quantiles. The
+  primary analysis uses `alpha = 0.05`; `0.10` and `0.20` are sensitivity settings.
 
-The simulation scripts can be invoked directly. From this directory, the first
-clustering-simulation task can be run as:
+The default parameter grid is `config/sim_params_1_v3.xlsx`. For example:
 
 ```bash
 Rscript scripts/simulation1/run_simulation1.R \
   --task-index=1 --repeats=10 --output-dir=/path/to/output/simulation1_task01
 ```
 
-Use `config/sim_params_1_v3.xlsx` as the default clustering-simulation parameter grid,
-or supply an alternative with `--param-file`. Full runs are computationally
-intensive. Scheduler-specific wrappers are intentionally omitted from the
-public repository, because queue names and resource directives are local to an
-individual computing system.
+Use `--param-file` to supply another grid. Full runs are computationally
+intensive; scheduler-specific wrappers are not included.

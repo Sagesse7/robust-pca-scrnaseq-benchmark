@@ -49,8 +49,7 @@ downloads on 12 July 2026. The Pancreas input is the decompressed GEO file.
 
 The Bhattacherjee analysis uses all 35,360 matched cells in the official GEO
 processed files, not the 24,822-cell derivative reported in the SCENA
-benchmark. Raw third-party data are not redistributed in this repository.
+benchmark.
 
-The same checksum records are provided in `DATA_MD5SUMS.txt`. Run the check from
-the repository root after preparing the files. The Pancreas checksum applies to
-the decompressed `pancreas_GSM2230759_human3_umifm_counts.csv` file.
+The same records are in `DATA_MD5SUMS.txt`. The Pancreas checksum applies to the
+decompressed CSV shown above.
