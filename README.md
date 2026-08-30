@@ -18,6 +18,9 @@ provided separately with the paper.
 Raw third-party data, manuscript Source Data, final figures, and computing-system-specific
 job scripts are not included.
 
+Software-version records are in [`environment/`](environment/). The commands
+below assume the required R packages have been installed.
+
 ## Analysis overview
 
 The benchmark compares PCA, PcaGrid, PcaHubert, PCP, K's tau, Winsor, Quad,
@@ -40,6 +43,8 @@ To regenerate manuscript figures, place the supplied CSV files in
 [`scripts/README.md`](scripts/README.md). Figures are written to the ignored
 `figures/` directory. Figure 1 is a manually assembled schematic; Figures 2--9
 and Supplementary Figures S1--S8 are script-generated.
+
+The same guide documents conversion of full-rerun outputs into Source Data.
 
 ## Validation
 

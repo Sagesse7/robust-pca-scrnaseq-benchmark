@@ -1,6 +1,6 @@
 # Code and figure validation
 
-Validation date: 2026-08-07
+Initial validation date: 2026-08-07
 
 This repository was validated against the manuscript, Supplementary Material,
 manuscript Source Data, and final quantitative figure files. The validation
@@ -21,13 +21,14 @@ real-data experiments.
   the manuscript.
 - PBMC preprocessing retains only features annotated as `Gene Expression`
   before normalization and HVG selection.
-- Simulation and real-data method order: PCA, PcaGrid, PcaHubert, PCP, K's tau,
+- Figure display order: PCA, PcaGrid, PcaHubert, PCP, K's tau,
   Winsor, Quad, Ball, Shell, and LR.
 
 ## Checks completed
 
 - All distributed R scripts parsed successfully.
-- The formal method smoke test completed successfully for all ten methods.
+- The distributed method smoke test completed successfully for the checks
+  implemented in that script.
 - Figures 2--9 and Supplementary Figures S1--S8 were regenerated from the
   manuscript Source Data.
 - All 16 regenerated quantitative PDF figures were pixel-identical to the
@@ -36,6 +37,26 @@ real-data experiments.
   manuscript Source Data exactly.
 - Figure 1 is a manually assembled study-design schematic and is therefore not
   claimed as a code-generated figure.
+
+## Documentation and export check, 2026-08-30
+
+- All 31 distributed R files parsed successfully; the distributed smoke test
+  passed.
+- All 13 Bash examples passed syntax checks. Command recording confirmed 21
+  clustering-simulation tasks, one reference plus 20 perturbed stability tasks,
+  three real-data runners, and 350 distinct runtime tasks without executing
+  those full experiments.
+- Eight simulation/real-data CSVs exported from retained formal aggregates,
+  and the runtime plot-input CSV exported from its retained summary, matched
+  the manuscript files byte-for-byte when using the recorded provenance labels.
+- The complete replot workflow preserved all 25 numerical Source Data CSVs;
+  all 16 quantitative figures were pixel-identical to the manuscript at 150 dpi.
+- Export guards rejected duplicate simulation keys, a mismatched RDS path root,
+  and nonempty simulation-export destinations.
+
+This check did not repeat raw-input model fitting or runtime measurement in a
+fresh formal environment. Analysis algorithms, seed logic, and reported
+scientific values were not changed.
 
 ## Distribution boundary
 

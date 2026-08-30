@@ -14,6 +14,7 @@ input_dirs <- c(
 )
 output_file <- arg_value("output")
 sensitivity_output_file <- arg_value("sensitivity-output")
+subspace_output_file <- arg_value("subspace-output")
 
 if (any(is.na(input_dirs)) || any(!nzchar(input_dirs)) || is.null(output_file)) {
   stop(
@@ -191,6 +192,33 @@ if (!is.null(sensitivity_output_file) && nzchar(sensitivity_output_file)) {
     "Wrote Figure S7 sensitivity Source Data to:\n",
     normalizePath(sensitivity_output_file), "\n"
   )
+}
+
+if (!is.null(subspace_output_file) && nzchar(subspace_output_file)) {
+  subspace <- rbindlist(Map(function(result_dir, dataset_name) {
+    sample <- fread(file.path(result_dir, "real_sampling_results_repeated_clustering.csv"))
+    if (!"subspace_pc10_mean_cos" %in% names(sample)) {
+      stop("Missing PC10 subspace similarity for ", dataset_name)
+    }
+    sample[, Method := publication_method(Method)]
+    values <- unique(sample[, .(
+      DatasetName = dataset_name, Replicate, Method, subspace_pc10_mean_cos
+    )])
+    if (anyDuplicated(values, by = c("DatasetName", "Replicate", "Method"))) {
+      stop("Subspace values differ between clustering runs on the same embedding.")
+    }
+    values
+  }, input_dirs, names(input_dirs)))
+  counts <- subspace[, .N, by = .(DatasetName, Method)]
+  if (nrow(subspace) != 600L || any(counts$N != 20L) ||
+      any(!is.finite(subspace$subspace_pc10_mean_cos))) {
+    stop("Expected 20 finite subspace values per dataset and method.")
+  }
+  subspace[, Group := method_group(Method)]
+  setorder(subspace, DatasetName, Method, Replicate)
+  dir.create(dirname(subspace_output_file), recursive = TRUE, showWarnings = FALSE)
+  fwrite(subspace, subspace_output_file)
+  cat("Wrote Figure 7 Source Data to:\n", normalizePath(subspace_output_file), "\n")
 }
 
 summary <- figure06[, .(

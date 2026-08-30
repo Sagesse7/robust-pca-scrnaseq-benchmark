@@ -47,9 +47,10 @@ figures and derived summaries.
 - Main dimensionality: PC10.
 - Sensitivity dimensionality: PC20.
 - Main clustering method: GMM.
-- Supplementary clustering methods: k-means and Louvain.
+- The runners also calculate k-means and Louvain outputs, but the current
+  manuscript does not report these real-data clustering results.
 - Reference labels are used for label-agreement analyses and to set the number
-  of centers in the k-means sensitivity analysis. They are not used for
+  of centers in the additional k-means calculations. They are not used for
   dimensionality reduction, GMM clustering, or Louvain clustering.
 - The 2,000-HVG set and gene-wise scaling parameters are estimated from the FULL
   dataset and then held fixed for all subsets within that dataset.
@@ -73,6 +74,15 @@ Real-data scripts use a default `BASE_SEED = 12345`. Repeated subset analyses
 derive subset and clustering seeds from the replicate index, method index, and
 inner clustering replicate index. Exact formulas are implemented in the
 real-data scripts.
+
+To reproduce the reported results, use the complete method lists and clustering
+settings specified here, because stochastic fitting can depend on the execution
+sequence. The formal method order, using command-line labels, was:
+
+- Simulations: `Grid,Hubert,PCP,PCA,Tau,Winsor,Quad,Ball,Shell,LR`.
+  Clustering-simulation runs used `--clustering-seed-mode=common`.
+- Real data: `PCA,Grid,Hubert,PCP,Winsor,Quad,Ball,Shell,LR,Tau`, with
+  `--repeats=20 --cluster-repeats=10`.
 
 ## Computational environment
 
