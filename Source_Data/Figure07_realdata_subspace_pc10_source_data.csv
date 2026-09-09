@@ -1,0 +1,601 @@
+DatasetName,Replicate,Method,subspace_pc10_mean_cos,Group
+Bhattacherjee,1,Ball,0.995167967140188,Proposed
+Bhattacherjee,2,Ball,0.995180634434624,Proposed
+Bhattacherjee,3,Ball,0.994907130594524,Proposed
+Bhattacherjee,4,Ball,0.995229333597686,Proposed
+Bhattacherjee,5,Ball,0.993052344217955,Proposed
+Bhattacherjee,6,Ball,0.994159806398289,Proposed
+Bhattacherjee,7,Ball,0.993362573859225,Proposed
+Bhattacherjee,8,Ball,0.990459502081647,Proposed
+Bhattacherjee,9,Ball,0.99482213258212,Proposed
+Bhattacherjee,10,Ball,0.993457499374799,Proposed
+Bhattacherjee,11,Ball,0.99491322273818,Proposed
+Bhattacherjee,12,Ball,0.994982624033923,Proposed
+Bhattacherjee,13,Ball,0.995521759354173,Proposed
+Bhattacherjee,14,Ball,0.994653396492948,Proposed
+Bhattacherjee,15,Ball,0.994486692882944,Proposed
+Bhattacherjee,16,Ball,0.994769579151632,Proposed
+Bhattacherjee,17,Ball,0.992325140466581,Proposed
+Bhattacherjee,18,Ball,0.994806999405956,Proposed
+Bhattacherjee,19,Ball,0.994733981775939,Proposed
+Bhattacherjee,20,Ball,0.993858345508905,Proposed
+Bhattacherjee,1,K's tau,0.995722663491176,Reference
+Bhattacherjee,2,K's tau,0.995195635701366,Reference
+Bhattacherjee,3,K's tau,0.995689505232588,Reference
+Bhattacherjee,4,K's tau,0.995644667039654,Reference
+Bhattacherjee,5,K's tau,0.995464343760019,Reference
+Bhattacherjee,6,K's tau,0.994697208305082,Reference
+Bhattacherjee,7,K's tau,0.995409712870455,Reference
+Bhattacherjee,8,K's tau,0.995457817963887,Reference
+Bhattacherjee,9,K's tau,0.995617162669868,Reference
+Bhattacherjee,10,K's tau,0.995624225432389,Reference
+Bhattacherjee,11,K's tau,0.995483736016204,Reference
+Bhattacherjee,12,K's tau,0.995762995634775,Reference
+Bhattacherjee,13,K's tau,0.99580630096997,Reference
+Bhattacherjee,14,K's tau,0.995845160238284,Reference
+Bhattacherjee,15,K's tau,0.995757535341161,Reference
+Bhattacherjee,16,K's tau,0.995790145736247,Reference
+Bhattacherjee,17,K's tau,0.994566355457185,Reference
+Bhattacherjee,18,K's tau,0.995610532581864,Reference
+Bhattacherjee,19,K's tau,0.995167459310119,Reference
+Bhattacherjee,20,K's tau,0.994262894861569,Reference
+Bhattacherjee,1,LR,0.995212538380166,Proposed
+Bhattacherjee,2,LR,0.995188372893055,Proposed
+Bhattacherjee,3,LR,0.994981177846108,Proposed
+Bhattacherjee,4,LR,0.995229436705665,Proposed
+Bhattacherjee,5,LR,0.992982544945222,Proposed
+Bhattacherjee,6,LR,0.99416929496318,Proposed
+Bhattacherjee,7,LR,0.993316525613185,Proposed
+Bhattacherjee,8,LR,0.989712627686375,Proposed
+Bhattacherjee,9,LR,0.994809584458903,Proposed
+Bhattacherjee,10,LR,0.993471094994176,Proposed
+Bhattacherjee,11,LR,0.994900681815966,Proposed
+Bhattacherjee,12,LR,0.995018803553664,Proposed
+Bhattacherjee,13,LR,0.995548186249549,Proposed
+Bhattacherjee,14,LR,0.99455277775805,Proposed
+Bhattacherjee,15,LR,0.994492523424272,Proposed
+Bhattacherjee,16,LR,0.994852480124051,Proposed
+Bhattacherjee,17,LR,0.991981186671655,Proposed
+Bhattacherjee,18,LR,0.99474329951801,Proposed
+Bhattacherjee,19,LR,0.994776177194487,Proposed
+Bhattacherjee,20,LR,0.993235721613091,Proposed
+Bhattacherjee,1,PCA,0.995337035474544,Reference
+Bhattacherjee,2,PCA,0.995163495308058,Reference
+Bhattacherjee,3,PCA,0.995115467399687,Reference
+Bhattacherjee,4,PCA,0.995186776757557,Reference
+Bhattacherjee,5,PCA,0.993033807376451,Reference
+Bhattacherjee,6,PCA,0.994230943334603,Reference
+Bhattacherjee,7,PCA,0.993203352188646,Reference
+Bhattacherjee,8,PCA,0.98756215564004,Reference
+Bhattacherjee,9,PCA,0.994801000830848,Reference
+Bhattacherjee,10,PCA,0.993715647268902,Reference
+Bhattacherjee,11,PCA,0.99487948466646,Reference
+Bhattacherjee,12,PCA,0.99509032189655,Reference
+Bhattacherjee,13,PCA,0.995583355303862,Reference
+Bhattacherjee,14,PCA,0.994229990551172,Reference
+Bhattacherjee,15,PCA,0.994587412262184,Reference
+Bhattacherjee,16,PCA,0.995037697862661,Reference
+Bhattacherjee,17,PCA,0.991255860308284,Reference
+Bhattacherjee,18,PCA,0.994547999800356,Reference
+Bhattacherjee,19,PCA,0.994549359217505,Reference
+Bhattacherjee,20,PCA,0.989625878641776,Reference
+Bhattacherjee,1,PCP,0.994354397185555,Reference
+Bhattacherjee,2,PCP,0.993215896566865,Reference
+Bhattacherjee,3,PCP,0.993886178922366,Reference
+Bhattacherjee,4,PCP,0.994225606000914,Reference
+Bhattacherjee,5,PCP,0.993419608065893,Reference
+Bhattacherjee,6,PCP,0.994116955584012,Reference
+Bhattacherjee,7,PCP,0.994122671699193,Reference
+Bhattacherjee,8,PCP,0.992588949472507,Reference
+Bhattacherjee,9,PCP,0.993805533731827,Reference
+Bhattacherjee,10,PCP,0.993527039264766,Reference
+Bhattacherjee,11,PCP,0.994256361038944,Reference
+Bhattacherjee,12,PCP,0.993705990592473,Reference
+Bhattacherjee,13,PCP,0.993859328454281,Reference
+Bhattacherjee,14,PCP,0.99404200733256,Reference
+Bhattacherjee,15,PCP,0.994042734814595,Reference
+Bhattacherjee,16,PCP,0.993657068023978,Reference
+Bhattacherjee,17,PCP,0.993169276417735,Reference
+Bhattacherjee,18,PCP,0.994375143729559,Reference
+Bhattacherjee,19,PCP,0.993865923172239,Reference
+Bhattacherjee,20,PCP,0.993872795492411,Reference
+Bhattacherjee,1,PcaGrid,0.331865733197656,Reference
+Bhattacherjee,2,PcaGrid,0.249085077825598,Reference
+Bhattacherjee,3,PcaGrid,0.262540242042664,Reference
+Bhattacherjee,4,PcaGrid,0.308328109385413,Reference
+Bhattacherjee,5,PcaGrid,0.214546186822552,Reference
+Bhattacherjee,6,PcaGrid,0.40185667995254,Reference
+Bhattacherjee,7,PcaGrid,0.216016251124043,Reference
+Bhattacherjee,8,PcaGrid,0.258206551816175,Reference
+Bhattacherjee,9,PcaGrid,0.273777501124171,Reference
+Bhattacherjee,10,PcaGrid,0.317297273573833,Reference
+Bhattacherjee,11,PcaGrid,0.314359739424761,Reference
+Bhattacherjee,12,PcaGrid,0.387249272813105,Reference
+Bhattacherjee,13,PcaGrid,0.32957385661022,Reference
+Bhattacherjee,14,PcaGrid,0.23488698300294,Reference
+Bhattacherjee,15,PcaGrid,0.255414900989077,Reference
+Bhattacherjee,16,PcaGrid,0.320199947105049,Reference
+Bhattacherjee,17,PcaGrid,0.429731461105605,Reference
+Bhattacherjee,18,PcaGrid,0.315276730686917,Reference
+Bhattacherjee,19,PcaGrid,0.314287614625306,Reference
+Bhattacherjee,20,PcaGrid,0.330215033850142,Reference
+Bhattacherjee,1,PcaHubert,0.957752484452977,Reference
+Bhattacherjee,2,PcaHubert,0.895824678088077,Reference
+Bhattacherjee,3,PcaHubert,0.945105304702998,Reference
+Bhattacherjee,4,PcaHubert,0.945489274890976,Reference
+Bhattacherjee,5,PcaHubert,0.932576161650575,Reference
+Bhattacherjee,6,PcaHubert,0.959496683256493,Reference
+Bhattacherjee,7,PcaHubert,0.940121758334983,Reference
+Bhattacherjee,8,PcaHubert,0.94020894336362,Reference
+Bhattacherjee,9,PcaHubert,0.934988159711018,Reference
+Bhattacherjee,10,PcaHubert,0.958109292576684,Reference
+Bhattacherjee,11,PcaHubert,0.937861548790723,Reference
+Bhattacherjee,12,PcaHubert,0.941178155852017,Reference
+Bhattacherjee,13,PcaHubert,0.94309830564284,Reference
+Bhattacherjee,14,PcaHubert,0.936653384467702,Reference
+Bhattacherjee,15,PcaHubert,0.943521878445966,Reference
+Bhattacherjee,16,PcaHubert,0.933418585391455,Reference
+Bhattacherjee,17,PcaHubert,0.94325506636302,Reference
+Bhattacherjee,18,PcaHubert,0.934374735284205,Reference
+Bhattacherjee,19,PcaHubert,0.896936973762799,Reference
+Bhattacherjee,20,PcaHubert,0.936416499184949,Reference
+Bhattacherjee,1,Quad,0.995325537670489,Proposed
+Bhattacherjee,2,Quad,0.995168658246138,Proposed
+Bhattacherjee,3,Quad,0.995112669345658,Proposed
+Bhattacherjee,4,Quad,0.995212124623493,Proposed
+Bhattacherjee,5,Quad,0.993009482267246,Proposed
+Bhattacherjee,6,Quad,0.994221943845288,Proposed
+Bhattacherjee,7,Quad,0.993211760904121,Proposed
+Bhattacherjee,8,Quad,0.987790083134836,Proposed
+Bhattacherjee,9,Quad,0.994798705736797,Proposed
+Bhattacherjee,10,Quad,0.993688590981987,Proposed
+Bhattacherjee,11,Quad,0.994884807716754,Proposed
+Bhattacherjee,12,Quad,0.995083289969438,Proposed
+Bhattacherjee,13,Quad,0.995581621449534,Proposed
+Bhattacherjee,14,Quad,0.994272085681267,Proposed
+Bhattacherjee,15,Quad,0.994576291246845,Proposed
+Bhattacherjee,16,Quad,0.995022696507785,Proposed
+Bhattacherjee,17,Quad,0.99130736493181,Proposed
+Bhattacherjee,18,Quad,0.994567796119542,Proposed
+Bhattacherjee,19,Quad,0.994593802405887,Proposed
+Bhattacherjee,20,Quad,0.990030696368186,Proposed
+Bhattacherjee,1,Shell,0.995142630958594,Proposed
+Bhattacherjee,2,Shell,0.995184932474848,Proposed
+Bhattacherjee,3,Shell,0.994808918167785,Proposed
+Bhattacherjee,4,Shell,0.995255559322677,Proposed
+Bhattacherjee,5,Shell,0.992624430702482,Proposed
+Bhattacherjee,6,Shell,0.994148581171179,Proposed
+Bhattacherjee,7,Shell,0.993215413409729,Proposed
+Bhattacherjee,8,Shell,0.989942829611716,Proposed
+Bhattacherjee,9,Shell,0.994837665976573,Proposed
+Bhattacherjee,10,Shell,0.993015158948959,Proposed
+Bhattacherjee,11,Shell,0.99495308034089,Proposed
+Bhattacherjee,12,Shell,0.994950101163915,Proposed
+Bhattacherjee,13,Shell,0.995500476186868,Proposed
+Bhattacherjee,14,Shell,0.994630576020987,Proposed
+Bhattacherjee,15,Shell,0.994369041444799,Proposed
+Bhattacherjee,16,Shell,0.994710612091967,Proposed
+Bhattacherjee,17,Shell,0.99193154529306,Proposed
+Bhattacherjee,18,Shell,0.994682894736085,Proposed
+Bhattacherjee,19,Shell,0.994595440558649,Proposed
+Bhattacherjee,20,Shell,0.993982019809051,Proposed
+Bhattacherjee,1,Winsor,0.995330474973316,Proposed
+Bhattacherjee,2,Winsor,0.995165949323865,Proposed
+Bhattacherjee,3,Winsor,0.995117193643425,Proposed
+Bhattacherjee,4,Winsor,0.995210883006735,Proposed
+Bhattacherjee,5,Winsor,0.993017570196877,Proposed
+Bhattacherjee,6,Winsor,0.994224227695027,Proposed
+Bhattacherjee,7,Winsor,0.993207642579067,Proposed
+Bhattacherjee,8,Winsor,0.987705260491691,Proposed
+Bhattacherjee,9,Winsor,0.994800475853323,Proposed
+Bhattacherjee,10,Winsor,0.993703012768044,Proposed
+Bhattacherjee,11,Winsor,0.994883779410911,Proposed
+Bhattacherjee,12,Winsor,0.995085646307062,Proposed
+Bhattacherjee,13,Winsor,0.995581977712964,Proposed
+Bhattacherjee,14,Winsor,0.994258425211701,Proposed
+Bhattacherjee,15,Winsor,0.994582633957892,Proposed
+Bhattacherjee,16,Winsor,0.99502944104762,Proposed
+Bhattacherjee,17,Winsor,0.991282870889527,Proposed
+Bhattacherjee,18,Winsor,0.994560660863382,Proposed
+Bhattacherjee,19,Winsor,0.994569208749694,Proposed
+Bhattacherjee,20,Winsor,0.9898289690546,Proposed
+PBMCs,1,Ball,0.888223670850498,Proposed
+PBMCs,2,Ball,0.8621346067764,Proposed
+PBMCs,3,Ball,0.912180226295947,Proposed
+PBMCs,4,Ball,0.912840640523273,Proposed
+PBMCs,5,Ball,0.862746394999314,Proposed
+PBMCs,6,Ball,0.894945592982325,Proposed
+PBMCs,7,Ball,0.891012799656312,Proposed
+PBMCs,8,Ball,0.899386367914294,Proposed
+PBMCs,9,Ball,0.917199608293364,Proposed
+PBMCs,10,Ball,0.908683098374314,Proposed
+PBMCs,11,Ball,0.91698026017341,Proposed
+PBMCs,12,Ball,0.886906581230369,Proposed
+PBMCs,13,Ball,0.905429010461301,Proposed
+PBMCs,14,Ball,0.894295202155661,Proposed
+PBMCs,15,Ball,0.909221031066758,Proposed
+PBMCs,16,Ball,0.908579748920215,Proposed
+PBMCs,17,Ball,0.90819042574367,Proposed
+PBMCs,18,Ball,0.90054157264567,Proposed
+PBMCs,19,Ball,0.897142455101212,Proposed
+PBMCs,20,Ball,0.904483769208209,Proposed
+PBMCs,1,K's tau,0.902022310596397,Reference
+PBMCs,2,K's tau,0.879128513049765,Reference
+PBMCs,3,K's tau,0.916131360736647,Reference
+PBMCs,4,K's tau,0.920586870665251,Reference
+PBMCs,5,K's tau,0.869992209553697,Reference
+PBMCs,6,K's tau,0.897320833978021,Reference
+PBMCs,7,K's tau,0.893878335798483,Reference
+PBMCs,8,K's tau,0.907607646818324,Reference
+PBMCs,9,K's tau,0.921054544548008,Reference
+PBMCs,10,K's tau,0.912161887146732,Reference
+PBMCs,11,K's tau,0.922358906966872,Reference
+PBMCs,12,K's tau,0.898294953424384,Reference
+PBMCs,13,K's tau,0.910984793058346,Reference
+PBMCs,14,K's tau,0.900172669622987,Reference
+PBMCs,15,K's tau,0.913491623591587,Reference
+PBMCs,16,K's tau,0.91053788772769,Reference
+PBMCs,17,K's tau,0.913478934895643,Reference
+PBMCs,18,K's tau,0.904773366827431,Reference
+PBMCs,19,K's tau,0.90940559465428,Reference
+PBMCs,20,K's tau,0.913272666607404,Reference
+PBMCs,1,LR,0.888944532170017,Proposed
+PBMCs,2,LR,0.862016917278714,Proposed
+PBMCs,3,LR,0.913227293793399,Proposed
+PBMCs,4,LR,0.914367080929621,Proposed
+PBMCs,5,LR,0.858888014293862,Proposed
+PBMCs,6,LR,0.895286826067151,Proposed
+PBMCs,7,LR,0.89164785295307,Proposed
+PBMCs,8,LR,0.900862489063968,Proposed
+PBMCs,9,LR,0.917800632826632,Proposed
+PBMCs,10,LR,0.909488230113843,Proposed
+PBMCs,11,LR,0.917704595420397,Proposed
+PBMCs,12,LR,0.888381614637083,Proposed
+PBMCs,13,LR,0.906223981200599,Proposed
+PBMCs,14,LR,0.892689507756095,Proposed
+PBMCs,15,LR,0.909805589496874,Proposed
+PBMCs,16,LR,0.908070991465911,Proposed
+PBMCs,17,LR,0.908217779271725,Proposed
+PBMCs,18,LR,0.901309037115572,Proposed
+PBMCs,19,LR,0.899052339523236,Proposed
+PBMCs,20,LR,0.907157434607341,Proposed
+PBMCs,1,PCA,0.886879363495146,Reference
+PBMCs,2,PCA,0.8576480096811,Reference
+PBMCs,3,PCA,0.915314445167002,Reference
+PBMCs,4,PCA,0.916098606478182,Reference
+PBMCs,5,PCA,0.848629438893985,Reference
+PBMCs,6,PCA,0.893484053138381,Reference
+PBMCs,7,PCA,0.891469846764035,Reference
+PBMCs,8,PCA,0.904607027833976,Reference
+PBMCs,9,PCA,0.917836532163108,Reference
+PBMCs,10,PCA,0.907499510173723,Reference
+PBMCs,11,PCA,0.919615344475866,Reference
+PBMCs,12,PCA,0.886323798937121,Reference
+PBMCs,13,PCA,0.908144049786004,Reference
+PBMCs,14,PCA,0.888451769056698,Reference
+PBMCs,15,PCA,0.911603062402005,Reference
+PBMCs,16,PCA,0.90343101998316,Reference
+PBMCs,17,PCA,0.907917731235012,Reference
+PBMCs,18,PCA,0.903924091499509,Reference
+PBMCs,19,PCA,0.901930468423016,Reference
+PBMCs,20,PCA,0.911882086535304,Reference
+PBMCs,1,PCP,0.914544858751613,Reference
+PBMCs,2,PCP,0.915270531512444,Reference
+PBMCs,3,PCP,0.909091409950426,Reference
+PBMCs,4,PCP,0.861476608022227,Reference
+PBMCs,5,PCP,0.919458465217171,Reference
+PBMCs,6,PCP,0.921136552537273,Reference
+PBMCs,7,PCP,0.919743187354533,Reference
+PBMCs,8,PCP,0.909671896781822,Reference
+PBMCs,9,PCP,0.90745007587774,Reference
+PBMCs,10,PCP,0.916058704041503,Reference
+PBMCs,11,PCP,0.886503539892075,Reference
+PBMCs,12,PCP,0.857358313134064,Reference
+PBMCs,13,PCP,0.916233749056445,Reference
+PBMCs,14,PCP,0.842159214940672,Reference
+PBMCs,15,PCP,0.924985473452197,Reference
+PBMCs,16,PCP,0.924206894107869,Reference
+PBMCs,17,PCP,0.91781410479095,Reference
+PBMCs,18,PCP,0.907528266590791,Reference
+PBMCs,19,PCP,0.886189848665494,Reference
+PBMCs,20,PCP,0.921506777949853,Reference
+PBMCs,1,PcaGrid,0.445025803663946,Reference
+PBMCs,2,PcaGrid,0.438319519192987,Reference
+PBMCs,3,PcaGrid,0.471819378132239,Reference
+PBMCs,4,PcaGrid,0.455637866634853,Reference
+PBMCs,5,PcaGrid,0.452764697289402,Reference
+PBMCs,6,PcaGrid,0.440384628190004,Reference
+PBMCs,7,PcaGrid,0.457294674714097,Reference
+PBMCs,8,PcaGrid,0.45030012864251,Reference
+PBMCs,9,PcaGrid,0.46608881974948,Reference
+PBMCs,10,PcaGrid,0.455447546026364,Reference
+PBMCs,11,PcaGrid,0.42853947717497,Reference
+PBMCs,12,PcaGrid,0.450346298263881,Reference
+PBMCs,13,PcaGrid,0.437405510370817,Reference
+PBMCs,14,PcaGrid,0.433247237146388,Reference
+PBMCs,15,PcaGrid,0.458283855832638,Reference
+PBMCs,16,PcaGrid,0.445154077719433,Reference
+PBMCs,17,PcaGrid,0.457876659837217,Reference
+PBMCs,18,PcaGrid,0.47566728687665,Reference
+PBMCs,19,PcaGrid,0.459530020561389,Reference
+PBMCs,20,PcaGrid,0.472783982938222,Reference
+PBMCs,1,PcaHubert,0.68745512343991,Reference
+PBMCs,2,PcaHubert,0.743168668844708,Reference
+PBMCs,3,PcaHubert,0.730372062172379,Reference
+PBMCs,4,PcaHubert,0.709712162489652,Reference
+PBMCs,5,PcaHubert,0.667673782071216,Reference
+PBMCs,6,PcaHubert,0.700111539030265,Reference
+PBMCs,7,PcaHubert,0.730971613305219,Reference
+PBMCs,8,PcaHubert,0.675300592890029,Reference
+PBMCs,9,PcaHubert,0.721061663141199,Reference
+PBMCs,10,PcaHubert,0.67103921139578,Reference
+PBMCs,11,PcaHubert,0.723889612260936,Reference
+PBMCs,12,PcaHubert,0.769696233498614,Reference
+PBMCs,13,PcaHubert,0.741682422350451,Reference
+PBMCs,14,PcaHubert,0.728307962551457,Reference
+PBMCs,15,PcaHubert,0.750183410535363,Reference
+PBMCs,16,PcaHubert,0.681994123352321,Reference
+PBMCs,17,PcaHubert,0.733501277205891,Reference
+PBMCs,18,PcaHubert,0.759734511594919,Reference
+PBMCs,19,PcaHubert,0.725058320211172,Reference
+PBMCs,20,PcaHubert,0.694757401831963,Reference
+PBMCs,1,Quad,0.887041512300795,Proposed
+PBMCs,2,Quad,0.85904567896494,Proposed
+PBMCs,3,Quad,0.914944463550161,Proposed
+PBMCs,4,Quad,0.91581545545293,Proposed
+PBMCs,5,Quad,0.850479223843364,Proposed
+PBMCs,6,Quad,0.893682799563285,Proposed
+PBMCs,7,Quad,0.891397505599534,Proposed
+PBMCs,8,Quad,0.903817033521273,Proposed
+PBMCs,9,Quad,0.917878286709775,Proposed
+PBMCs,10,Quad,0.908725400990429,Proposed
+PBMCs,11,Quad,0.919266195212104,Proposed
+PBMCs,12,Quad,0.884525441399517,Proposed
+PBMCs,13,Quad,0.907933028976639,Proposed
+PBMCs,14,Quad,0.888430262602165,Proposed
+PBMCs,15,Quad,0.911302246939225,Proposed
+PBMCs,16,Quad,0.904354740883367,Proposed
+PBMCs,17,Quad,0.907980629555593,Proposed
+PBMCs,18,Quad,0.903413942410077,Proposed
+PBMCs,19,Quad,0.901488548960944,Proposed
+PBMCs,20,Quad,0.911265898498731,Proposed
+PBMCs,1,Shell,0.888082260910081,Proposed
+PBMCs,2,Shell,0.859566972383385,Proposed
+PBMCs,3,Shell,0.91305209468775,Proposed
+PBMCs,4,Shell,0.914344551508131,Proposed
+PBMCs,5,Shell,0.859090856417616,Proposed
+PBMCs,6,Shell,0.895591805061076,Proposed
+PBMCs,7,Shell,0.890913723305856,Proposed
+PBMCs,8,Shell,0.900127731990221,Proposed
+PBMCs,9,Shell,0.917240520002742,Proposed
+PBMCs,10,Shell,0.908867347048812,Proposed
+PBMCs,11,Shell,0.916640156422303,Proposed
+PBMCs,12,Shell,0.885022753284104,Proposed
+PBMCs,13,Shell,0.905781992638598,Proposed
+PBMCs,14,Shell,0.891217563859345,Proposed
+PBMCs,15,Shell,0.909153042125743,Proposed
+PBMCs,16,Shell,0.906818329349962,Proposed
+PBMCs,17,Shell,0.907790735048592,Proposed
+PBMCs,18,Shell,0.901557278728177,Proposed
+PBMCs,19,Shell,0.898581938531567,Proposed
+PBMCs,20,Shell,0.907543958227391,Proposed
+PBMCs,1,Winsor,0.886815907170831,Proposed
+PBMCs,2,Winsor,0.858828113641731,Proposed
+PBMCs,3,Winsor,0.915040760610557,Proposed
+PBMCs,4,Winsor,0.91587879644508,Proposed
+PBMCs,5,Winsor,0.850006038262143,Proposed
+PBMCs,6,Winsor,0.893561556004932,Proposed
+PBMCs,7,Winsor,0.891346948994344,Proposed
+PBMCs,8,Winsor,0.904014948520369,Proposed
+PBMCs,9,Winsor,0.917820681897366,Proposed
+PBMCs,10,Winsor,0.908472146546787,Proposed
+PBMCs,11,Winsor,0.919369811209551,Proposed
+PBMCs,12,Winsor,0.883910205294582,Proposed
+PBMCs,13,Winsor,0.908022247414304,Proposed
+PBMCs,14,Winsor,0.888172273053206,Proposed
+PBMCs,15,Winsor,0.911389944628054,Proposed
+PBMCs,16,Winsor,0.90390791741593,Proposed
+PBMCs,17,Winsor,0.907948658114496,Proposed
+PBMCs,18,Winsor,0.903691514558926,Proposed
+PBMCs,19,Winsor,0.901619155323515,Proposed
+PBMCs,20,Winsor,0.911513355094644,Proposed
+Pancreas,1,Ball,0.974216999828197,Proposed
+Pancreas,2,Ball,0.967202581211954,Proposed
+Pancreas,3,Ball,0.960929992969298,Proposed
+Pancreas,4,Ball,0.97442642149138,Proposed
+Pancreas,5,Ball,0.974549604281588,Proposed
+Pancreas,6,Ball,0.975599461611075,Proposed
+Pancreas,7,Ball,0.976196020599306,Proposed
+Pancreas,8,Ball,0.975878313996727,Proposed
+Pancreas,9,Ball,0.975129951655841,Proposed
+Pancreas,10,Ball,0.971429531780652,Proposed
+Pancreas,11,Ball,0.973395988668424,Proposed
+Pancreas,12,Ball,0.96246599576495,Proposed
+Pancreas,13,Ball,0.974449419860965,Proposed
+Pancreas,14,Ball,0.974635738889048,Proposed
+Pancreas,15,Ball,0.96359293804266,Proposed
+Pancreas,16,Ball,0.974615708930379,Proposed
+Pancreas,17,Ball,0.977173407536404,Proposed
+Pancreas,18,Ball,0.970744318842381,Proposed
+Pancreas,19,Ball,0.974998623293216,Proposed
+Pancreas,20,Ball,0.973341618965456,Proposed
+Pancreas,1,K's tau,0.973441839913231,Reference
+Pancreas,2,K's tau,0.96874096643979,Reference
+Pancreas,3,K's tau,0.966422829331202,Reference
+Pancreas,4,K's tau,0.974117125739703,Reference
+Pancreas,5,K's tau,0.974646256673516,Reference
+Pancreas,6,K's tau,0.975519591053914,Reference
+Pancreas,7,K's tau,0.976049364237154,Reference
+Pancreas,8,K's tau,0.976016761644778,Reference
+Pancreas,9,K's tau,0.974424199115187,Reference
+Pancreas,10,K's tau,0.971273848400155,Reference
+Pancreas,11,K's tau,0.973302449018162,Reference
+Pancreas,12,K's tau,0.965647534820765,Reference
+Pancreas,13,K's tau,0.975072874603755,Reference
+Pancreas,14,K's tau,0.974868244871344,Reference
+Pancreas,15,K's tau,0.963208548215007,Reference
+Pancreas,16,K's tau,0.97474301745205,Reference
+Pancreas,17,K's tau,0.976991137438087,Reference
+Pancreas,18,K's tau,0.970268972333811,Reference
+Pancreas,19,K's tau,0.97441210846516,Reference
+Pancreas,20,K's tau,0.974860600744499,Reference
+Pancreas,1,LR,0.973967319134996,Proposed
+Pancreas,2,LR,0.967225285239941,Proposed
+Pancreas,3,LR,0.961757986298987,Proposed
+Pancreas,4,LR,0.974504993612165,Proposed
+Pancreas,5,LR,0.974625344108298,Proposed
+Pancreas,6,LR,0.975505825763748,Proposed
+Pancreas,7,LR,0.976165006644951,Proposed
+Pancreas,8,LR,0.975590678818088,Proposed
+Pancreas,9,LR,0.974837533535531,Proposed
+Pancreas,10,LR,0.971327527695144,Proposed
+Pancreas,11,LR,0.973467823453675,Proposed
+Pancreas,12,LR,0.962566432957995,Proposed
+Pancreas,13,LR,0.974191825415262,Proposed
+Pancreas,14,LR,0.974473287900756,Proposed
+Pancreas,15,LR,0.963377039065193,Proposed
+Pancreas,16,LR,0.974546087001408,Proposed
+Pancreas,17,LR,0.977130025873637,Proposed
+Pancreas,18,LR,0.969944116679032,Proposed
+Pancreas,19,LR,0.974747942116555,Proposed
+Pancreas,20,LR,0.973783530402564,Proposed
+Pancreas,1,PCA,0.97334178342669,Reference
+Pancreas,2,PCA,0.967480043895329,Reference
+Pancreas,3,PCA,0.965248462902728,Reference
+Pancreas,4,PCA,0.974646986104293,Reference
+Pancreas,5,PCA,0.974142491177459,Reference
+Pancreas,6,PCA,0.975187315945024,Reference
+Pancreas,7,PCA,0.976074920478677,Reference
+Pancreas,8,PCA,0.974965468307871,Reference
+Pancreas,9,PCA,0.973720612937536,Reference
+Pancreas,10,PCA,0.971107258045677,Reference
+Pancreas,11,PCA,0.973924115304406,Reference
+Pancreas,12,PCA,0.963312850898065,Reference
+Pancreas,13,PCA,0.974347485640514,Reference
+Pancreas,14,PCA,0.974385835340167,Reference
+Pancreas,15,PCA,0.963230797963703,Reference
+Pancreas,16,PCA,0.974479121814183,Reference
+Pancreas,17,PCA,0.97699528273727,Reference
+Pancreas,18,PCA,0.969156678077346,Reference
+Pancreas,19,PCA,0.973528413191935,Reference
+Pancreas,20,PCA,0.97466684163126,Reference
+Pancreas,1,PCP,0.863442309782148,Reference
+Pancreas,2,PCP,0.864827684713163,Reference
+Pancreas,3,PCP,0.849317999270076,Reference
+Pancreas,4,PCP,0.8669711485711,Reference
+Pancreas,5,PCP,0.839595680172705,Reference
+Pancreas,6,PCP,0.854261693624866,Reference
+Pancreas,7,PCP,0.860542332378583,Reference
+Pancreas,8,PCP,0.858615836454728,Reference
+Pancreas,9,PCP,0.866566931337003,Reference
+Pancreas,10,PCP,0.852228317717765,Reference
+Pancreas,11,PCP,0.87121191485804,Reference
+Pancreas,12,PCP,0.847580471384344,Reference
+Pancreas,13,PCP,0.870899016538607,Reference
+Pancreas,14,PCP,0.854378578346362,Reference
+Pancreas,15,PCP,0.854548946919605,Reference
+Pancreas,16,PCP,0.868589848084044,Reference
+Pancreas,17,PCP,0.871135506826595,Reference
+Pancreas,18,PCP,0.868134807924796,Reference
+Pancreas,19,PCP,0.85117655786858,Reference
+Pancreas,20,PCP,0.86616954286704,Reference
+Pancreas,1,PcaGrid,0.245652721976882,Reference
+Pancreas,2,PcaGrid,0.124884235097355,Reference
+Pancreas,3,PcaGrid,0.187749338621347,Reference
+Pancreas,4,PcaGrid,0.154353330088672,Reference
+Pancreas,5,PcaGrid,0.181789372695557,Reference
+Pancreas,6,PcaGrid,0.187190762668928,Reference
+Pancreas,7,PcaGrid,0.247739755571707,Reference
+Pancreas,8,PcaGrid,0.201058164881744,Reference
+Pancreas,9,PcaGrid,0.180620919319379,Reference
+Pancreas,10,PcaGrid,0.177291666286416,Reference
+Pancreas,11,PcaGrid,0.172602671072671,Reference
+Pancreas,12,PcaGrid,0.240359820969641,Reference
+Pancreas,13,PcaGrid,0.264540190736133,Reference
+Pancreas,14,PcaGrid,0.290204185175206,Reference
+Pancreas,15,PcaGrid,0.16694291759582,Reference
+Pancreas,16,PcaGrid,0.183930584931629,Reference
+Pancreas,17,PcaGrid,0.189655744071111,Reference
+Pancreas,18,PcaGrid,0.183801658850563,Reference
+Pancreas,19,PcaGrid,0.140027000545363,Reference
+Pancreas,20,PcaGrid,0.200117136684544,Reference
+Pancreas,1,PcaHubert,0.963796554675791,Reference
+Pancreas,2,PcaHubert,0.960271138812032,Reference
+Pancreas,3,PcaHubert,0.964009573288663,Reference
+Pancreas,4,PcaHubert,0.962125369987677,Reference
+Pancreas,5,PcaHubert,0.962822872174934,Reference
+Pancreas,6,PcaHubert,0.961962698437046,Reference
+Pancreas,7,PcaHubert,0.960619173469583,Reference
+Pancreas,8,PcaHubert,0.962776901307038,Reference
+Pancreas,9,PcaHubert,0.965615580044797,Reference
+Pancreas,10,PcaHubert,0.963330468413579,Reference
+Pancreas,11,PcaHubert,0.962096973658452,Reference
+Pancreas,12,PcaHubert,0.931735887270753,Reference
+Pancreas,13,PcaHubert,0.960123522282134,Reference
+Pancreas,14,PcaHubert,0.963997633359027,Reference
+Pancreas,15,PcaHubert,0.961631478699781,Reference
+Pancreas,16,PcaHubert,0.964668788307571,Reference
+Pancreas,17,PcaHubert,0.961183287209581,Reference
+Pancreas,18,PcaHubert,0.965446051344204,Reference
+Pancreas,19,PcaHubert,0.964067862634946,Reference
+Pancreas,20,PcaHubert,0.962205631142156,Reference
+Pancreas,1,Quad,0.973354557877959,Proposed
+Pancreas,2,Quad,0.967456440054485,Proposed
+Pancreas,3,Quad,0.964939398887861,Proposed
+Pancreas,4,Quad,0.974631141256722,Proposed
+Pancreas,5,Quad,0.974202950279878,Proposed
+Pancreas,6,Quad,0.975194709809043,Proposed
+Pancreas,7,Quad,0.976115109249669,Proposed
+Pancreas,8,Quad,0.975012223272676,Proposed
+Pancreas,9,Quad,0.973582739571449,Proposed
+Pancreas,10,Quad,0.971060683726408,Proposed
+Pancreas,11,Quad,0.973785092626261,Proposed
+Pancreas,12,Quad,0.963130233405419,Proposed
+Pancreas,13,Quad,0.974233607587109,Proposed
+Pancreas,14,Quad,0.974351940617435,Proposed
+Pancreas,15,Quad,0.963188564426669,Proposed
+Pancreas,16,Quad,0.974488818714949,Proposed
+Pancreas,17,Quad,0.977001741522666,Proposed
+Pancreas,18,Quad,0.969075222255963,Proposed
+Pancreas,19,Quad,0.973950509621826,Proposed
+Pancreas,20,Quad,0.974614531472135,Proposed
+Pancreas,1,Shell,0.974205867627792,Proposed
+Pancreas,2,Shell,0.966781655058806,Proposed
+Pancreas,3,Shell,0.959796834272098,Proposed
+Pancreas,4,Shell,0.974937843469686,Proposed
+Pancreas,5,Shell,0.974633940646134,Proposed
+Pancreas,6,Shell,0.975420470929404,Proposed
+Pancreas,7,Shell,0.97618052628768,Proposed
+Pancreas,8,Shell,0.975217989228106,Proposed
+Pancreas,9,Shell,0.974380226595379,Proposed
+Pancreas,10,Shell,0.970993023241473,Proposed
+Pancreas,11,Shell,0.973539528246013,Proposed
+Pancreas,12,Shell,0.96060188715566,Proposed
+Pancreas,13,Shell,0.972402295850644,Proposed
+Pancreas,14,Shell,0.974534981596468,Proposed
+Pancreas,15,Shell,0.963050929478237,Proposed
+Pancreas,16,Shell,0.974417630426237,Proposed
+Pancreas,17,Shell,0.977092799750394,Proposed
+Pancreas,18,Shell,0.969088458153849,Proposed
+Pancreas,19,Shell,0.974583170739009,Proposed
+Pancreas,20,Shell,0.973379505595896,Proposed
+Pancreas,1,Winsor,0.973326070024829,Proposed
+Pancreas,2,Winsor,0.967466460387175,Proposed
+Pancreas,3,Winsor,0.965108534766485,Proposed
+Pancreas,4,Winsor,0.974632725298209,Proposed
+Pancreas,5,Winsor,0.974174348309354,Proposed
+Pancreas,6,Winsor,0.975178297031252,Proposed
+Pancreas,7,Winsor,0.976111390339647,Proposed
+Pancreas,8,Winsor,0.974987366408195,Proposed
+Pancreas,9,Winsor,0.973517835388378,Proposed
+Pancreas,10,Winsor,0.971051685388943,Proposed
+Pancreas,11,Winsor,0.973803088876413,Proposed
+Pancreas,12,Winsor,0.963158666177629,Proposed
+Pancreas,13,Winsor,0.974253512076961,Proposed
+Pancreas,14,Winsor,0.974348510155841,Proposed
+Pancreas,15,Winsor,0.963193590275163,Proposed
+Pancreas,16,Winsor,0.97448704155822,Proposed
+Pancreas,17,Winsor,0.976994646769195,Proposed
+Pancreas,18,Winsor,0.969058981707668,Proposed
+Pancreas,19,Winsor,0.973909357807384,Proposed
+Pancreas,20,Winsor,0.974641166188219,Proposed

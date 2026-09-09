@@ -1,0 +1,4 @@
+Clustering_algorithm,Spearman_rho_all_methods,N_all_methods,Spearman_rho_excluding_PcaGrid,N_excluding_PcaGrid,Analysis_unit,Replicates_per_mean,Unique_conditions,Includes_dropout_mid0_identity,Shared_mean_shift_anchor_counted_once
+GMM,0.216945416458033,190,0.047347830383878,171,Paired clustering/stability condition-method mean,10,19,TRUE,TRUE
+k-means,0.323859141171732,190,0.186983967458611,171,Paired clustering/stability condition-method mean,10,19,TRUE,TRUE
+Louvain,0.624515498508882,190,0.582250865564687,171,Paired clustering/stability condition-method mean,10,19,TRUE,TRUE

@@ -1,0 +1,30 @@
+Method,Estimator,Mechanism,Doublets / mean shifts,Dropout,PC-wise,Subspace,Clustering,Runtime,Proposed
+PCA,"Empirical
+covariance","Variance
+maximization",+/-,+/-,+/-,+,+/-,+,FALSE
+PcaGrid,"Projection-pursuit
+PCA","Robust scale
+maximization",-,-,-,-,-,-,FALSE
+PcaHubert,ROBPCA,"Projection pursuit +
+robust covariance",+,+/-,-,+/-,+/-,+/-,FALSE
+PCP,"Matrix
+decomposition","Low-rank + sparse
+decomposition",+,+/-,+/-,+/-,+/-,-,FALSE
+K's tau,"Multivariate
+Kendall matrix","Pairwise
+spatial signs",+,+,+/-,+,+,+,FALSE
+Winsor,"Generalized
+Kendall matrix","Distance
+winsorization",+/-,+/-,+/-,+,+/-,+,TRUE
+Quad,"Generalized
+Kendall matrix","Inverse-quadratic
+decay",+/-,+/-,+/-,+,+/-,+,TRUE
+Ball,"Generalized
+Kendall matrix","Upper-distance
+cutoff",+,+,+/-,+,+/-,+,TRUE
+Shell,"Generalized
+Kendall matrix","Distance-window
+selection",+/-,+/-,+/-,+,+/-,+,TRUE
+LR,"Generalized
+Kendall matrix","Linear
+redescending",+/-,+/-,+/-,+,+/-,+,TRUE

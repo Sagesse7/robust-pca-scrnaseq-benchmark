@@ -1,8 +1,9 @@
 # Benchmarking and Generalizing Robust PCA for scRNA-seq Dimensionality Reduction
 
-This repository contains the analysis and figure-generation code for the
-manuscript of the same title. Manuscript Source Data and final figures are
-provided separately with the paper.
+This repository is the reproducibility companion for the manuscript of the
+same title. It contains the analysis and figure-generation code, curated Source
+Data underlying the reported figures and tables, final figure files, and the
+recorded R environment.
 
 ## Contents
 
@@ -12,11 +13,14 @@ provided separately with the paper.
 | `scripts/real_data/` | PBMC, Pancreas, and Bhattacherjee analyses. |
 | `scripts/runtime/` | Matched runtime benchmark. |
 | `scripts/figures/` | Figure-generation scripts. |
+| `Source_Data/` | Curated CSV files underlying manuscript and Supplementary results. |
+| `figures/` | Final manuscript and Supplementary figure files. |
 | `data/` | Data sources, expected file layout, and checksums. |
 | `environment/` | Recorded R environments. |
+| `figure_manifest.csv` | Mapping from each figure or table to its Source Data and generating script. |
 
-Raw third-party data, manuscript Source Data, final figures, and computing-system-specific
-job scripts are not included.
+Raw third-party data, frozen intermediate results, server logs, and
+computing-system-specific job scripts are not included.
 
 Software-version records are in [`environment/`](environment/). The commands
 below assume the required R packages have been installed.
@@ -38,11 +42,11 @@ given in [`data/README.md`](data/README.md). Analysis commands are provided in:
 - [`scripts/real_data/formal_realdata_pairwise_calibration/README.md`](scripts/real_data/formal_realdata_pairwise_calibration/README.md)
 - [`scripts/runtime/matched_runtime_benchmark/README.md`](scripts/runtime/matched_runtime_benchmark/README.md)
 
-To regenerate manuscript figures, place the supplied CSV files in
-`Source_Data/` and use the scripts described in
-[`scripts/README.md`](scripts/README.md). Figures are written to the ignored
-`figures/` directory. Figure 1 is a manually assembled schematic; Figures 2--9
-and Supplementary Figures S1--S8 are script-generated.
+To regenerate manuscript figures from the supplied CSV files in
+`Source_Data/`, use the scripts described in
+[`scripts/README.md`](scripts/README.md). Figures are written to `figures/`,
+replacing the supplied copies. Figure 1 is a manually assembled schematic;
+Figures 2--9 and Supplementary Figures S1--S8 are script-generated.
 
 The same guide documents conversion of full-rerun outputs into Source Data.
 

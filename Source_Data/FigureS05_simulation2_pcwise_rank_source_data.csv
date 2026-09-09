@@ -1,0 +1,201 @@
+Method,Level,Median,N,Rank,Label,PerturbationCondition
+PCA,-1,0.386050961498237,10,5,5,Dropout midpoint
+PcaGrid,-1,0.000979501519155911,10,10,10,Dropout midpoint
+PcaHubert,-1,0.228495361964035,10,9,9,Dropout midpoint
+PCP,-1,0.439553984910537,10,1,1,Dropout midpoint
+K's tau,-1,0.37430162305054,10,8,8,Dropout midpoint
+Winsor,-1,0.389136248002947,10,2,2,Dropout midpoint
+Quad,-1,0.387627821221689,10,4,4,Dropout midpoint
+Ball,-1,0.376076956095282,10,7,7,Dropout midpoint
+Shell,-1,0.387840681662392,10,3,3,Dropout midpoint
+LR,-1,0.3794020783156,10,6,6,Dropout midpoint
+PCA,0,1,10,,NR,Dropout midpoint
+PcaGrid,0,1,10,,NR,Dropout midpoint
+PcaHubert,0,1,10,,NR,Dropout midpoint
+PCP,0,1,10,,NR,Dropout midpoint
+K's tau,0,1,10,,NR,Dropout midpoint
+Winsor,0,1,10,,NR,Dropout midpoint
+Quad,0,1,10,,NR,Dropout midpoint
+Ball,0,1,10,,NR,Dropout midpoint
+Shell,0,1,10,,NR,Dropout midpoint
+LR,0,1,10,,NR,Dropout midpoint
+PCA,1,0.358066884094492,10,4,4,Dropout midpoint
+PcaGrid,1,0.00151351649503728,10,10,10,Dropout midpoint
+PcaHubert,1,0.337033890854544,10,9,9,Dropout midpoint
+PCP,1,0.361496578783427,10,2,2,Dropout midpoint
+K's tau,1,0.36296798865124,10,1,1,Dropout midpoint
+Winsor,1,0.35773002464239,10,6,6,Dropout midpoint
+Quad,1,0.357826944836811,10,5,5,Dropout midpoint
+Ball,1,0.361353122161491,10,3,3,Dropout midpoint
+Shell,1,0.357207919792762,10,7,7,Dropout midpoint
+LR,1,0.356739867110548,10,8,8,Dropout midpoint
+PCA,2,0.305097583859374,10,3,3,Dropout midpoint
+PcaGrid,2,0.00142848108552512,10,10,10,Dropout midpoint
+PcaHubert,2,0.278945003394077,10,8,8,Dropout midpoint
+PCP,2,0.139764825903586,10,9,9,Dropout midpoint
+K's tau,2,0.306408615803468,10,1,1,Dropout midpoint
+Winsor,2,0.301240283289859,10,7,7,Dropout midpoint
+Quad,2,0.304833275953187,10,4,4,Dropout midpoint
+Ball,2,0.302790185705121,10,6,6,Dropout midpoint
+Shell,2,0.303500158070178,10,5,5,Dropout midpoint
+LR,2,0.306229008749436,10,2,2,Dropout midpoint
+PCA,3,0.240412518673152,10,1,1,Dropout midpoint
+PcaGrid,3,0.00116553521757845,10,10,10,Dropout midpoint
+PcaHubert,3,0.213247282273335,10,8,8,Dropout midpoint
+PCP,3,0.0668754727731768,10,9,9,Dropout midpoint
+K's tau,3,0.236996896194611,10,4,4,Dropout midpoint
+Winsor,3,0.238930381234286,10,2,2,Dropout midpoint
+Quad,3,0.236622561378877,10,5,5,Dropout midpoint
+Ball,3,0.237408581847259,10,3,3,Dropout midpoint
+Shell,3,0.236523641173731,10,6,6,Dropout midpoint
+LR,3,0.23608690695691,10,7,7,Dropout midpoint
+PCA,2%,0.83650871691072,10,4,4,Doublet fraction
+PcaGrid,2%,0.0946488481723717,10,10,10,Doublet fraction
+PcaHubert,2%,0.640176112227788,10,9,9,Doublet fraction
+PCP,2%,0.893119851987817,10,1,1,Doublet fraction
+K's tau,2%,0.767359819824683,10,8,8,Doublet fraction
+Winsor,2%,0.87088272646336,10,2,2,Doublet fraction
+Quad,2%,0.828240404650126,10,6,6,Doublet fraction
+Ball,2%,0.833663533417874,10,5,5,Doublet fraction
+Shell,2%,0.857309228950483,10,3,3,Doublet fraction
+LR,2%,0.818345821477038,10,7,7,Doublet fraction
+PCA,5%,0.73550068335303,10,5,5,Doublet fraction
+PcaGrid,5%,0.0016528480619318,10,10,10,Doublet fraction
+PcaHubert,5%,0.600578167809865,10,9,9,Doublet fraction
+PCP,5%,0.773337058953846,10,2,2,Doublet fraction
+K's tau,5%,0.646964688844677,10,8,8,Doublet fraction
+Winsor,5%,0.74829120738167,10,4,4,Doublet fraction
+Quad,5%,0.748940400026562,10,3,3,Doublet fraction
+Ball,5%,0.727508521652986,10,7,7,Doublet fraction
+Shell,5%,0.77506459561305,10,1,1,Doublet fraction
+LR,5%,0.730606158008521,10,6,6,Doublet fraction
+PCA,8%,0.68507966384302,10,3,3,Doublet fraction
+PcaGrid,8%,0.00116677428885672,10,10,10,Doublet fraction
+PcaHubert,8%,0.557432683626574,10,9,9,Doublet fraction
+PCP,8%,0.738224694170589,10,1,1,Doublet fraction
+K's tau,8%,0.64986211537406,10,8,8,Doublet fraction
+Winsor,8%,0.661706144664329,10,6,6,Doublet fraction
+Quad,8%,0.65326899802774,10,7,7,Doublet fraction
+Ball,8%,0.675585862854836,10,5,5,Doublet fraction
+Shell,8%,0.707304329482816,10,2,2,Doublet fraction
+LR,8%,0.676949647848366,10,4,4,Doublet fraction
+PCA,10%,0.680724033229269,10,3,3,Doublet fraction
+PcaGrid,10%,0.00183511781057149,10,10,10,Doublet fraction
+PcaHubert,10%,0.519492815341812,10,9,9,Doublet fraction
+PCP,10%,0.730095378912378,10,1,1,Doublet fraction
+K's tau,10%,0.587849648171758,10,8,8,Doublet fraction
+Winsor,10%,0.694750718459482,10,2,2,Doublet fraction
+Quad,10%,0.67760992347087,10,4,4,Doublet fraction
+Ball,10%,0.638223503832803,10,7,7,Doublet fraction
+Shell,10%,0.66154311522725,10,5,5,Doublet fraction
+LR,10%,0.650076003715325,10,6,6,Doublet fraction
+PCA,15%,0.641873417406838,10,2,2,Doublet fraction
+PcaGrid,15%,0.00210241562513498,10,10,10,Doublet fraction
+PcaHubert,15%,0.521309432986451,10,9,9,Doublet fraction
+PCP,15%,0.678876165577041,10,1,1,Doublet fraction
+K's tau,15%,0.573797180432896,10,8,8,Doublet fraction
+Winsor,15%,0.606164621740103,10,7,7,Doublet fraction
+Quad,15%,0.611857088488822,10,6,6,Doublet fraction
+Ball,15%,0.613512989106602,10,5,5,Doublet fraction
+Shell,15%,0.639698862797431,10,3,3,Doublet fraction
+LR,15%,0.635135543241551,10,4,4,Doublet fraction
+PCA,2%,0.996089653372611,10,4,4,Shifted-cell fraction
+PcaGrid,2%,0.145483299955451,10,10,10,Shifted-cell fraction
+PcaHubert,2%,0.774521670949436,10,9,9,Shifted-cell fraction
+PCP,2%,0.997601935215392,10,1,1,Shifted-cell fraction
+K's tau,2%,0.996074423641681,10,5,5,Shifted-cell fraction
+Winsor,2%,0.993699953513491,10,8,8,Shifted-cell fraction
+Quad,2%,0.995605255627986,10,6,6,Shifted-cell fraction
+Ball,2%,0.995539561033477,10,7,7,Shifted-cell fraction
+Shell,2%,0.996144763273468,10,3,3,Shifted-cell fraction
+LR,2%,0.996193870653831,10,2,2,Shifted-cell fraction
+PCA,4%,0.990048704398564,10,6,6,Shifted-cell fraction
+PcaGrid,4%,0.192345671272558,10,10,10,Shifted-cell fraction
+PcaHubert,4%,0.762024245892496,10,9,9,Shifted-cell fraction
+PCP,4%,0.994671242164942,10,1,1,Shifted-cell fraction
+K's tau,4%,0.991388203649819,10,5,5,Shifted-cell fraction
+Winsor,4%,0.986362424135092,10,8,8,Shifted-cell fraction
+Quad,4%,0.992464705785837,10,4,4,Shifted-cell fraction
+Ball,4%,0.988837373866366,10,7,7,Shifted-cell fraction
+Shell,4%,0.992723857951178,10,3,3,Shifted-cell fraction
+LR,4%,0.994330210412818,10,2,2,Shifted-cell fraction
+PCA,6%,0.983571663781956,10,4,4,Shifted-cell fraction
+PcaGrid,6%,0.192939269836227,10,10,10,Shifted-cell fraction
+PcaHubert,6%,0.781387956018966,10,9,9,Shifted-cell fraction
+PCP,6%,0.99424186190966,10,1,1,Shifted-cell fraction
+K's tau,6%,0.989377588905723,10,2,2,Shifted-cell fraction
+Winsor,6%,0.971567386361778,10,8,8,Shifted-cell fraction
+Quad,6%,0.982962177880531,10,6,6,Shifted-cell fraction
+Ball,6%,0.982789538831451,10,7,7,Shifted-cell fraction
+Shell,6%,0.986112487127647,10,3,3,Shifted-cell fraction
+LR,6%,0.983162844609484,10,5,5,Shifted-cell fraction
+PCA,8%,0.985012212916503,10,4,4,Shifted-cell fraction
+PcaGrid,8%,0.0955535275665859,10,10,10,Shifted-cell fraction
+PcaHubert,8%,0.741971049130348,10,9,9,Shifted-cell fraction
+PCP,8%,0.993034046095067,10,1,1,Shifted-cell fraction
+K's tau,8%,0.982945851690505,10,6,6,Shifted-cell fraction
+Winsor,8%,0.97156753222157,10,8,8,Shifted-cell fraction
+Quad,8%,0.977540196997705,10,7,7,Shifted-cell fraction
+Ball,8%,0.986701660071968,10,2,2,Shifted-cell fraction
+Shell,8%,0.984900040156813,10,5,5,Shifted-cell fraction
+LR,8%,0.985393809431021,10,3,3,Shifted-cell fraction
+PCA,10%,0.974607696024547,10,5,5,Shifted-cell fraction
+PcaGrid,10%,0.192117086561649,10,10,10,Shifted-cell fraction
+PcaHubert,10%,0.756249828516741,10,9,9,Shifted-cell fraction
+PCP,10%,0.990162880696283,10,1,1,Shifted-cell fraction
+K's tau,10%,0.980718684009837,10,2,2,Shifted-cell fraction
+Winsor,10%,0.950345835189796,10,8,8,Shifted-cell fraction
+Quad,10%,0.955472942472229,10,7,7,Shifted-cell fraction
+Ball,10%,0.973648727466334,10,6,6,Shifted-cell fraction
+Shell,10%,0.975933478033365,10,4,4,Shifted-cell fraction
+LR,10%,0.979849616863723,10,3,3,Shifted-cell fraction
+PCA,1.5,0.998337274318028,10,3,3,Shift magnitude
+PcaGrid,1.5,0.186128484506654,10,10,10,Shift magnitude
+PcaHubert,1.5,0.799555095686321,10,9,9,Shift magnitude
+PCP,1.5,0.999049084705655,10,1,1,Shift magnitude
+K's tau,1.5,0.997530716991353,10,7,7,Shift magnitude
+Winsor,1.5,0.997188562316365,10,8,8,Shift magnitude
+Quad,1.5,0.997933425722722,10,6,6,Shift magnitude
+Ball,1.5,0.998039292649394,10,5,5,Shift magnitude
+Shell,1.5,0.998465749913675,10,2,2,Shift magnitude
+LR,1.5,0.998300069289663,10,4,4,Shift magnitude
+PCA,2,0.996089653372611,10,4,4,Shift magnitude
+PcaGrid,2,0.145483299955451,10,10,10,Shift magnitude
+PcaHubert,2,0.774521670949436,10,9,9,Shift magnitude
+PCP,2,0.997601935215392,10,1,1,Shift magnitude
+K's tau,2,0.996074423641681,10,5,5,Shift magnitude
+Winsor,2,0.993699953513491,10,8,8,Shift magnitude
+Quad,2,0.995605255627986,10,6,6,Shift magnitude
+Ball,2,0.995539561033477,10,7,7,Shift magnitude
+Shell,2,0.996144763273468,10,3,3,Shift magnitude
+LR,2,0.996193870653831,10,2,2,Shift magnitude
+PCA,3,0.986772954499504,10,6,6,Shift magnitude
+PcaGrid,3,0.234132940797632,10,10,10,Shift magnitude
+PcaHubert,3,0.79685722508567,10,9,9,Shift magnitude
+PCP,3,0.994903871598288,10,1,1,Shift magnitude
+K's tau,3,0.989994824822804,10,2,2,Shift magnitude
+Winsor,3,0.98029509262819,10,8,8,Shift magnitude
+Quad,3,0.985874749502128,10,7,7,Shift magnitude
+Ball,3,0.986804613294128,10,5,5,Shift magnitude
+Shell,3,0.98940561086652,10,3,3,Shift magnitude
+LR,3,0.989361509124775,10,4,4,Shift magnitude
+PCA,4,0.971540386636999,10,6,6,Shift magnitude
+PcaGrid,4,0.10066715531427,10,10,10,Shift magnitude
+PcaHubert,4,0.781089787043554,10,9,9,Shift magnitude
+PCP,4,0.993940324794586,10,1,1,Shift magnitude
+K's tau,4,0.954093337519197,10,8,8,Shift magnitude
+Winsor,4,0.966853045721156,10,7,7,Shift magnitude
+Quad,4,0.972621825184498,10,5,5,Shift magnitude
+Ball,4,0.972749296656596,10,4,4,Shift magnitude
+Shell,4,0.979381977237864,10,3,3,Shift magnitude
+LR,4,0.982073774147911,10,2,2,Shift magnitude
+PCA,5,0.952753407379889,10,6,6,Shift magnitude
+PcaGrid,5,0.142883718022834,10,10,10,Shift magnitude
+PcaHubert,5,0.732803629240654,10,9,9,Shift magnitude
+PCP,5,0.982655475781364,10,1,1,Shift magnitude
+K's tau,5,0.918534180490752,10,8,8,Shift magnitude
+Winsor,5,0.939827243977519,10,7,7,Shift magnitude
+Quad,5,0.953904927164772,10,5,5,Shift magnitude
+Ball,5,0.960019274425303,10,4,4,Shift magnitude
+Shell,5,0.96965221630786,10,3,3,Shift magnitude
+LR,5,0.972211901678513,10,2,2,Shift magnitude

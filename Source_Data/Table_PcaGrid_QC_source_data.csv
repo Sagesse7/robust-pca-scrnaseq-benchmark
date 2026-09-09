@@ -1,0 +1,13 @@
+Item,Result,Source
+Implementation,rrcov::PcaGrid,Methods implementation
+Projection-pursuit scale,MAD,Methods implementation
+Preprocessing,"log-CPM transformation, zero-variance gene removal, and gene-wise standardization",Methods implementation
+Internal centering/scaling,"Disabled after manuscript-level preprocessing (center=0, scale=1)",Methods implementation
+Score construction,X times the estimated loading matrix,Methods implementation
+Formal Simulation 1 PcaGrid rows,210,Formal 2026-07-18/19 rerun
+Formal Simulation 2 PcaGrid rows,200,Formal 2026-07-18/19 rerun
+Computed principal components,20 in all checked formal source-data rows,Formal 2026-07-18/19 rerun
+Maximum loading orthogonality error,7.99e-15,Formal 2026-07-18/19 rerun
+Simulation 1 GMM PC10 ARI mean,0.0017,Formal 2026-07-18/19 rerun
+Simulation 1 GMM PC10 NMI mean,0.0079,Formal 2026-07-18/19 rerun
+Simulation 2 PC10 subspace similarity mean,0.4848,Formal 2026-07-18/19 rerun

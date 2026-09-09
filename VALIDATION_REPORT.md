@@ -60,8 +60,7 @@ scientific values were not changed.
 
 ## Distribution boundary
 
-The code repository intentionally does not duplicate manuscript Source Data,
-final figures, raw third-party datasets, frozen results, scheduler logs, or
-institution-specific job-submission scripts. Input accessions and checksums are
-documented under `data/`; the figure scripts expect the separately supplied
-Source Data to be placed in `Source_Data/` before figure regeneration.
+The repository includes the curated manuscript Source Data and final figure
+files used for submission. It does not include raw third-party datasets, frozen
+intermediate results, scheduler logs, or institution-specific job-submission
+scripts. Input accessions and checksums are documented under `data/`.

@@ -13,7 +13,7 @@
 This route does not rerun the experiments. Place the manuscript CSV files in
 `Source_Data/` and run the commands below from the repository root. Some
 scripts rewrite derived CSVs, so use a working copy of Source Data. Figure
-outputs go to `figures/`.
+outputs go to `figures/`, replacing the supplied copies when run in place.
 
 Use a UTF-8 locale and install Arial for the recorded figure layout. Check
 `Rscript -e 'stopifnot(l10n_info()[["UTF-8"]])'` before plotting. On Linux,
