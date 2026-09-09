@@ -17,7 +17,5 @@ Rplots.pdf
 data/*
 !data/README.md
 !data/DATA_MD5SUMS.txt
-Source_Data/
-figures/
 results/
 *.rds
