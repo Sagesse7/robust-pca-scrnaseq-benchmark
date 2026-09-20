@@ -1,4 +1,4 @@
-# Benchmarking and Generalizing Robust PCA for scRNA-seq Dimensionality Reduction
+# Benchmarking and Generalizing Robust Principal Component Analysis for Single-Cell RNA Sequencing
 
 This repository is the reproducibility companion for the manuscript of the
 same title. It contains the analysis and figure-generation code, curated Source
