@@ -110,7 +110,7 @@ fig02 <- ggplot(weight_dt, aes(r, Weight, colour = Method, linetype = Method)) +
     data = threshold_marks,
     aes(r, Weight, label = Label),
     inherit.aes = FALSE, parse = TRUE,
-    size = 2.15, colour = "#4E5962", fill = "white",
+    size = 3.0, colour = "#4E5962", fill = "white",
     linewidth = 0, label.padding = unit(0.45, "mm")
   ) +
   scale_colour_manual(
@@ -135,7 +135,7 @@ fig02 <- ggplot(weight_dt, aes(r, Weight, colour = Method, linetype = Method)) +
     legend.direction = "horizontal",
     legend.key.width = unit(5.0, "mm"),
     legend.key.height = unit(2.6, "mm"),
-    legend.text = element_text(size = 5.8, colour = "#30363B"),
+    legend.text = element_text(size = 6.3, colour = "#30363B"),
     legend.spacing.x = unit(0.8, "mm"),
     legend.spacing.y = unit(0.2, "mm"),
     legend.margin = margin(t = 2, r = 0, b = 0, l = 0),

@@ -2,6 +2,26 @@
 
 Initial validation date: 2026-08-07
 
+## Figure presentation validation, 2026-09-22 (v1.0.2)
+
+- Started from public GitHub main commit `458dfb7`; earlier validation sections
+  below describe the previous release and are retained as history.
+- Successfully ran all seven plotting scripts covering Figures 2--9 and S1--S8.
+- Compared all 17 distributed figure PDFs with the current manuscript artwork
+  at 150 dpi: every figure was pixel-identical, including the unchanged Figure 1.
+- Confirmed all 27 files in `Source_Data/` were byte-identical to the public
+  baseline after regeneration (25 numerical CSVs, a CSV manifest, and README).
+- Confirmed every file under `scripts/simulation/`, `scripts/real_data/`, and
+  `scripts/runtime/` was byte-identical to the public baseline.
+- Parsed all distributed R scripts successfully.
+- Added recorded plotting-package versions and session information under
+  `environment/figure_presentation_20260922_*`.
+
+This check changed figure presentation and documentation only. It did not
+repeat model fitting, runtime measurements, or the earlier method smoke test.
+Pixel identity was checked in the recorded environment; font availability or
+different rendering-library versions can affect reproduction elsewhere.
+
 This repository was validated against the manuscript, Supplementary Material,
 manuscript Source Data, and final quantitative figure files. The validation
 regenerated figures and derived summaries; it did not rerun the simulation or
@@ -24,7 +44,7 @@ real-data experiments.
 - Figure display order: PCA, PcaGrid, PcaHubert, PCP, K's tau,
   Winsor, Quad, Ball, Shell, and LR.
 
-## Checks completed
+## Initial checks completed (historical)
 
 - All distributed R scripts parsed successfully.
 - The distributed method smoke test completed successfully for the checks

@@ -131,7 +131,7 @@ save_combined_clustering <- function(metric_specs, figure_stem, source_filename)
     geom_tile(colour = "white", linewidth = 0.22) +
     geom_text(
       aes(label = Label, colour = TextColour),
-      size = 1.55, lineheight = 0.85, show.legend = FALSE
+      size = 2.0, lineheight = 0.85, show.legend = FALSE
     ) +
     scale_colour_identity() +
     scale_y_discrete(limits = rev(METHOD_ORDER), labels = METHOD_LABELS) +
@@ -142,25 +142,31 @@ save_combined_clustering <- function(metric_specs, figure_stem, source_filename)
     ) +
     facet_grid(Metric ~ Noise, scales = "free_x", space = "free_x", switch = "y") +
     labs(x = NULL, y = NULL) +
+    guides(fill = guide_colourbar(
+      barwidth = grid::unit(28, "mm"), barheight = grid::unit(2, "mm"),
+      title.position = "left"
+    )) +
     theme_heatmap(6.2) +
     theme(
-      legend.position = "right",
-      legend.title = element_text(size = 6.2),
-      legend.text = element_text(size = 5.8),
+      legend.position = "bottom",
+      legend.title = element_text(size = 6.8, margin = margin(r = 12)),
+      legend.text = element_text(size = 6.3),
       strip.placement = "outside",
       strip.background = element_rect(fill = "#F1F1F1", colour = NA),
-      strip.text.x = element_text(size = 6.4, face = "bold"),
-      strip.text.y.left = element_text(size = 6.4, face = "bold", angle = 0),
-      axis.text.x = element_text(size = 5.1, angle = 35, hjust = 1, vjust = 1),
-      axis.text.y = element_text(size = 5.6),
+      strip.text.x = element_text(size = 7.4, face = "bold"),
+      strip.text.y.left = element_text(size = 6.8, face = "bold", angle = 0,
+                                     margin = margin(2, 1, 2, 1)),
+      axis.text.x = element_text(size = 6.7, angle = 0, hjust = 0.5, vjust = 1),
+      axis.text.y = element_text(size = 6.9),
       panel.spacing.x = grid::unit(1.2, "mm"),
       panel.spacing.y = grid::unit(1.3, "mm"),
       plot.margin = margin(3, 4, 3, 3)
     )
 
-  save_pub_r(fig, fig_path("Appendix", figure_stem), 183, 128)
+  save_pub_r(fig, fig_path("Appendix", figure_stem), 178, 128)
 }
 
+if (!("--figure4-only" %in% commandArgs(trailingOnly = TRUE))) {
 ari_built <- build_noise_summary(c(ARI = "ARI_gmm_pc10"))
 g_built <- build_noise_summary(c(`Selected G` = "k_gmm_pc10"))
 level_labels <- ari_built$level_labels
@@ -201,7 +207,7 @@ fig_s1 <- ggplot(s1_dt, aes(LevelKey, Method, fill = MeanARI)) +
   geom_tile(colour = "white", linewidth = 0.22) +
   geom_text(
     aes(label = Label, colour = TextColour),
-    size = 1.42, lineheight = 0.86, show.legend = FALSE
+    size = 2.05, lineheight = 0.95, show.legend = FALSE
   ) +
   scale_colour_identity() +
   scale_y_discrete(limits = rev(METHOD_ORDER), labels = METHOD_LABELS) +
@@ -210,22 +216,26 @@ fig_s1 <- ggplot(s1_dt, aes(LevelKey, Method, fill = MeanARI)) +
     option = "E", limits = c(0, 1), oob = scales::squish,
     breaks = c(0, 0.5, 1), name = "ARI"
   ) +
-  facet_grid(. ~ Noise, scales = "free_x", space = "free_x") +
+  facet_wrap(~Noise, ncol = 2, scales = "free_x", axes = "all_y") +
   labs(x = NULL, y = NULL) +
+  guides(fill = guide_colourbar(barwidth = unit(28, "mm"), barheight = unit(2, "mm"),
+                               title.position = "left")) +
   theme_heatmap(6.2) +
   theme(
-    legend.position = "right",
+    legend.position = "bottom",
+    legend.title = element_text(size = 6.8, margin = margin(r = 12)),
     strip.background = element_rect(fill = "#F1F1F1", colour = NA),
-    strip.text.x = element_text(size = 6.4, face = "bold"),
-    axis.text.x = element_text(size = 5.1, angle = 35, hjust = 1, vjust = 1),
-    axis.text.y = element_text(size = 5.6),
-    panel.spacing.x = grid::unit(1.2, "mm"),
+    strip.text.x = element_text(size = 7.4, face = "bold"),
+    axis.text.x = element_text(size = 6.7, angle = 0, hjust = 0.5, vjust = 1),
+    axis.text.y = element_text(size = 6.9),
+    panel.spacing.x = grid::unit(4, "mm"),
+    panel.spacing.y = grid::unit(4, "mm"),
     plot.margin = margin(3, 4, 3, 3)
   )
 save_pub_r(
   fig_s1,
   fig_path("Appendix", "FigureS01_simulation1_gmm_pc10_ari_with_k"),
-  183, 82
+  178, 155
 )
 
 if ("--figure-s1-only" %in% commandArgs(trailingOnly = TRUE)) {
@@ -243,6 +253,12 @@ save_combined_clustering(
   "FigureS03_simulation1_louvain_pc10_ari_nmi",
   "FigureS03_simulation1_louvain_pc10_ari_nmi_source_data.csv"
 )
+
+if ("--clustering-only" %in% commandArgs(trailingOnly = TRUE)) {
+  cat("Regenerated Figures S1-S3 from curated Source Data.\n")
+  quit(save = "no", status = 0)
+}
+}
 
 distribution_panel <- function(spec, key) {
   z <- copy(spec$data[is.finite(SimilarityPC10)])
@@ -273,15 +289,20 @@ distribution_panel <- function(spec, key) {
     ) +
     facet_wrap(~Method, ncol = 5, labeller = as_labeller(METHOD_LABELS)) +
     coord_cartesian(ylim = c(0, 1.02)) +
-    scale_x_discrete(limits = spec$labels, labels = axis_labels, drop = FALSE) +
+    scale_x_discrete(limits = spec$labels, labels = axis_labels, drop = FALSE,
+                     expand = expansion(add = if (key == "doublet") 0.4 else 0.6)) +
     scale_y_continuous(breaks = c(0, 0.5, 1)) +
     labs(title = spec$title, x = axis_title, y = "Subspace similarity (PC10)") +
     theme_journal(5.2) +
     theme(
-      strip.text = element_text(size = 5.2, face = "bold"),
-      axis.text = element_text(size = 4.8),
-      axis.title = element_text(size = 5.2),
-      plot.title = element_text(size = 6.2, face = "bold"),
+      strip.text = element_text(size = 6.3, face = "bold"),
+      axis.text = element_text(size = 6.3),
+      axis.text.x = element_text(angle = 0, hjust = 0.5, vjust = 1,
+                                 margin = margin(t = 2, b = 0)),
+      axis.ticks.length.x = unit(0.7, "mm"),
+      axis.title = element_text(size = 6.5),
+      axis.title.x = element_text(margin = margin(t = 4)),
+      plot.title = element_text(size = 7.0, face = "bold"),
       panel.spacing = unit(1.2, "mm")
     )
 
@@ -301,10 +322,17 @@ distribution_panel <- function(spec, key) {
 }
 
 dist_panels <- Map(distribution_panel, sim2_sweeps, names(sim2_sweeps))
+source(file.path(release_root, "scripts", "utils", "axis_spacing.R"))
+dist_panels <- align_bottom_axis_space(dist_panels)
 fig04 <- wrap_plots(dist_panels, ncol = 2) +
   plot_annotation(tag_levels = "a") &
   theme(plot.tag = element_text(size = 8, face = "bold"))
-save_pub_r(fig04, fig_path("Simulation_2", "Figure04_simulation2_subspace"), 183, 156)
+save_pub_r(fig04, fig_path("Simulation_2", "Figure04_simulation2_subspace"), 178, 150)
+
+if ("--figure4-only" %in% commandArgs(trailingOnly = TRUE)) {
+  cat("Regenerated Figure 4 with consistent x-axis tick angles.\n")
+  quit(save = "no", status = 0)
+}
 
 rank_panel <- function(spec, key) {
   z <- copy(spec$data[is.finite(SimilarityPC10)])
@@ -318,7 +346,7 @@ rank_panel <- function(spec, key) {
 
   ggplot(ranks, aes(Level, Method, fill = Rank)) +
     geom_tile(colour = "white", linewidth = 0.22) +
-    geom_text(aes(label = Label, colour = TextColour), size = 1.65, show.legend = FALSE) +
+    geom_text(aes(label = Label, colour = TextColour), size = 2.3, show.legend = FALSE) +
     scale_colour_identity() +
     scale_y_discrete(limits = rev(METHOD_ORDER), labels = METHOD_LABELS) +
     scale_fill_viridis_c(
@@ -326,14 +354,15 @@ rank_panel <- function(spec, key) {
       breaks = c(1, 5, 10), na.value = "#E2E2E2", name = "Rank"
     ) +
     labs(title = spec$title, x = spec$xlab, y = NULL) +
-    theme_heatmap(6.2)
+    theme_heatmap(6.2) +
+    theme(axis.text.x = element_text(angle = 0, hjust = 0.5, vjust = 1))
 }
 
 rank_panels <- Map(rank_panel, sim2_sweeps, names(sim2_sweeps))
 fig05 <- wrap_plots(rank_panels, ncol = 2, guides = "collect") +
   plot_annotation(tag_levels = "a") &
   theme(legend.position = "right", plot.tag = element_text(size = 8, face = "bold"))
-save_pub_r(fig05, fig_path("Simulation_2", "Figure05_simulation2_rank"), 183, 112)
+save_pub_r(fig05, fig_path("Simulation_2", "Figure05_simulation2_rank"), 178, 112)
 
 pc_long <- read_source("FigureS06_simulation1_pc10_vs_pc20_gmm_ari_source_data.csv")
 # ParamID 1 and 3 represent the same midpoint-0 background, and ParamID 12
@@ -363,6 +392,6 @@ fig_s6 <- ggplot(pc_long[is.finite(ARI)], aes(Method, ARI, fill = Group)) +
   labs(x = NULL, y = "Adjusted Rand index", fill = NULL) +
   theme_journal(6.2) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "top")
-save_pub_r(fig_s6, fig_path("Appendix", "FigureS06_simulation1_pc10_vs_pc20_gmm_ari"), 183, 82)
+save_pub_r(fig_s6, fig_path("Appendix", "FigureS06_simulation1_pc10_vs_pc20_gmm_ari"), 178, 82)
 
 cat("Regenerated simulation support figures from curated Source Data.\n")

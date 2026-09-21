@@ -67,7 +67,7 @@ delta_panel <- function(data, outcomes, y_limits, y_breaks, title) {
       axis.text.x = element_text(angle = 35, hjust = 1),
       legend.position = "top",
       legend.justification = "left",
-      strip.text = element_text(size = 6.1, face = "bold"),
+      strip.text = element_text(size = 6.5, face = "bold"),
       plot.title = element_text(size = 6.8, face = "bold")
     )
 }
@@ -90,9 +90,9 @@ fig <- (p_a | p_b) / (p_c | p_d) +
   )
 
 stem <- file.path(output_dir, "FigureS08_alpha_sensitivity")
-save_pub_r(fig, stem, 183, 132)
+save_pub_r(fig, stem, 178, 132)
 ragg::agg_png(
-  paste0(stem, ".png"), width = 183, height = 132, units = "mm", res = 300,
+  paste0(stem, ".png"), width = 178, height = 132, units = "mm", res = 300,
   background = "white"
 )
 print(fig)

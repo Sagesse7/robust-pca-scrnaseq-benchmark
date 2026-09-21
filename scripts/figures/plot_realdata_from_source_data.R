@@ -153,7 +153,7 @@ fig06 <- ggplot(
     panel.spacing.y = unit(1.5, "mm")
   )
 
-save_pub_r(fig06, fig_path("Real_data", "Figure06_realdata_gmm_pc10_ari"), 183, 108)
+save_pub_r(fig06, fig_path("Real_data", "Figure06_realdata_gmm_pc10_ari"), 178, 108)
 
 if (figure_only == "Figure06") {
   cat("Regenerated Figure 6 from hierarchical Source Data.\n")
@@ -225,7 +225,7 @@ fig07_rank <- ggplot(
   geom_tile(colour = "white", linewidth = 0.30) +
   geom_text(
     aes(label = Label, colour = TextColour),
-    lineheight = 0.90, size = 1.72, show.legend = FALSE
+    lineheight = 0.95, size = 2.3, show.legend = FALSE
   ) +
   scale_colour_identity() +
   scale_y_discrete(limits = rev(METHOD_ORDER), labels = METHOD_LABELS) +
@@ -241,8 +241,8 @@ fig07_rank <- ggplot(
       angle = 0, hjust = 0.5, vjust = 0.5, face = "bold"
     ),
     legend.position = "right",
-    legend.title = element_text(size = 5.8),
-    legend.text = element_text(size = 5.6)
+    legend.title = element_text(size = 6.5),
+    legend.text = element_text(size = 6.3)
   )
 
 fig07 <- fig07_distribution / fig07_rank +
@@ -252,7 +252,7 @@ fig07 <- fig07_distribution / fig07_rank +
 save_pub_r(
   fig07,
   fig_path("Real_data", "Figure07_realdata_subspace_pc10"),
-  183, 150
+  178, 160
 )
 
 if (figure_only == "Figure06_07") {
@@ -276,7 +276,7 @@ fig_s7 <- ggplot(sensitivity, aes(y = Method)) +
 save_pub_r(
   fig_s7,
   fig_path("Appendix", "FigureS07_realdata_pc10_vs_pc20_gmm_reproducibility"),
-  183, 78
+  178, 78
 )
 
 cat("Regenerated real-data figures from curated Source Data.\n")

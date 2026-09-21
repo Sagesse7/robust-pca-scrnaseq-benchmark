@@ -114,17 +114,22 @@ distribution_panel <- function(spec, key) {
     ) +
     facet_wrap(~Method, ncol = 5, labeller = as_labeller(METHOD_LABELS)) +
     coord_cartesian(ylim = c(0, 1.02)) +
-    scale_x_discrete(limits = spec$labels, labels = axis_labels, drop = FALSE) +
+    scale_x_discrete(limits = spec$labels, labels = axis_labels, drop = FALSE,
+                     expand = expansion(add = if (key == "doublet") 0.4 else 0.6)) +
     scale_y_continuous(breaks = c(0, 0.5, 1)) +
     labs(x = axis_title, y = "PC-wise similarity (PC1-PC10)", title = spec$title) +
     theme_journal(5.7) +
     theme(
       legend.position = "none",
-      strip.text = element_text(size = 5.5),
-      axis.text.x = element_text(size = 4.8),
-      axis.text.y = element_text(size = 5.0),
-      axis.title = element_text(size = 5.4),
-      plot.title = element_text(size = 6.2, face = "bold"),
+      strip.text = element_text(size = 6.3),
+      axis.text.x = element_text(size = 6.3,
+                                angle = 0, hjust = 0.5, vjust = 1,
+                                margin = margin(t = 2, b = 0)),
+      axis.ticks.length.x = grid::unit(0.7, "mm"),
+      axis.text.y = element_text(size = 6.3),
+      axis.title = element_text(size = 6.5),
+      axis.title.x = element_text(margin = margin(t = 4)),
+      plot.title = element_text(size = 7.0, face = "bold"),
       panel.spacing = grid::unit(1.2, "mm")
     )
 
@@ -146,14 +151,21 @@ distribution_panel <- function(spec, key) {
 }
 
 distribution_panels <- Map(distribution_panel, sweeps, names(sweeps))
+source(file.path(release_root, "scripts", "utils", "axis_spacing.R"))
+distribution_panels <- align_bottom_axis_space(distribution_panels)
 figure_s4 <- wrap_plots(distribution_panels, ncol = 2) +
   plot_annotation(tag_levels = "a") &
   theme(plot.tag = element_text(size = 8, face = "bold"))
 save_pub_r(
   figure_s4,
   file.path(figure_dir, "FigureS04_simulation2_pcwise_pc10"),
-  183, 156
+  178, 156
 )
+
+if ("--figure-s4-only" %in% commandArgs(trailingOnly = TRUE)) {
+  cat("Regenerated Figure S4 with consistent x-axis tick angles.\n")
+  quit(save = "no", status = 0)
+}
 
 rank_panel <- function(spec) {
   z <- copy(rank_dt[Noise == spec$source_name])
@@ -166,7 +178,7 @@ rank_panel <- function(spec) {
 
   ggplot(z, aes(Level, Method, fill = Rank)) +
     geom_tile(colour = "white", linewidth = 0.35) +
-    geom_text(aes(label = Label, colour = TextColour), size = 1.8) +
+    geom_text(aes(label = Label, colour = TextColour), size = 2.3) +
     scale_colour_identity() +
     scale_y_discrete(limits = rev(METHOD_ORDER), labels = METHOD_LABELS) +
     scale_fill_viridis_c(
@@ -176,9 +188,9 @@ rank_panel <- function(spec) {
     labs(title = spec$title, x = spec$xlab, y = NULL) +
     theme_heatmap(6.2) +
     theme(
-      axis.text.x = element_text(size = 5.3),
-      axis.text.y = element_text(size = 5.3),
-      plot.title = element_text(size = 6.5, face = "bold")
+      axis.text.x = element_text(size = 6.3, angle = 0, hjust = 0.5, vjust = 1),
+      axis.text.y = element_text(size = 6.3),
+      plot.title = element_text(size = 7.0, face = "bold")
     )
 }
 
@@ -189,7 +201,7 @@ figure_s5 <- wrap_plots(rank_panels, ncol = 2, guides = "collect") +
 save_pub_r(
   figure_s5,
   file.path(figure_dir, "FigureS05_simulation2_pcwise_rank"),
-  183, 112
+  178, 112
 )
 
 cat("Regenerated Simulation 2 PC-wise figures from curated Source Data.\n")

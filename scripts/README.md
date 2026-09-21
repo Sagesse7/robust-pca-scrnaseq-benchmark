@@ -20,6 +20,20 @@ Use a UTF-8 locale and install Arial for the recorded figure layout. Check
 select an installed UTF-8 locale, such as `C.UTF-8`; the package versions are
 recorded in `environment/figure_generation_package_versions.csv`.
 
+The v1.0.2 plotting environment is additionally recorded in
+`environment/figure_presentation_20260922_packages.csv` and
+`environment/figure_presentation_20260922_sessionInfo.txt`.
+The export helper uses `xml2` and `systemfonts` to align the ARI/Score title
+with the horizontal colorbar in Figures 3 and S1--S3. This step is included
+automatically in the commands below; no manual figure editing is needed.
+
+The updated figure export also requires `xml2` and `systemfonts` for precise
+colorbar-title alignment. The helper `scripts/utils/axis_spacing.R` equalizes
+the bottom-axis space in Figures 4 and S4. The normal commands below apply
+these layout adjustments automatically; no manual editing of the exported
+figures is required. Each plotting script exports PDF, editable SVG, and PNG;
+the repository distributes the final PDFs.
+
 ```bash
 Rscript scripts/figures/plot_simulation1_clustering_combined.R
 Rscript scripts/figures/plot_simulation_support_from_source_data.R

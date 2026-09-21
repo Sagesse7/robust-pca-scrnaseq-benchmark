@@ -87,6 +87,7 @@ runtime_panel <- function(z, xvar, breaks, xlab, panel_title) {
     theme_journal(6.2) +
     theme(
       legend.position = "bottom",
+      axis.text.y = element_text(size = 8.5),
       legend.key.width = unit(5.2, "mm"),
       plot.title = element_text(size = 7, face = "bold", hjust = 0)
     ) +
@@ -125,6 +126,6 @@ combined <- (gene_panel | cell_panel) +
 
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 stem <- file.path(output_dir, "Figure08_runtime_scaling")
-save_pub_r(combined, stem, 183, 86)
+save_pub_r(combined, stem, 178, 86)
 cat("Regenerated matched-design runtime figure from curated Source Data at:",
     normalizePath(output_dir), "\n")

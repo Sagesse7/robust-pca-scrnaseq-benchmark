@@ -127,7 +127,7 @@ fig <- ggplot(plot_dt, aes(LevelKey, Method, fill = Mean)) +
   geom_tile(colour = "white", linewidth = 0.22) +
   geom_text(
     aes(label = Label, colour = TextColour),
-    size = 1.55, lineheight = 0.85, show.legend = FALSE
+    size = 2.0, lineheight = 0.85, show.legend = FALSE
   ) +
   scale_colour_identity() +
   scale_y_discrete(limits = rev(METHOD_ORDER), labels = METHOD_LABELS) +
@@ -141,23 +141,28 @@ fig <- ggplot(plot_dt, aes(LevelKey, Method, fill = Mean)) +
     switch = "y"
   ) +
   labs(x = NULL, y = NULL) +
+  guides(fill = guide_colourbar(
+    barwidth = grid::unit(28, "mm"), barheight = grid::unit(2, "mm"),
+    title.position = "left"
+  )) +
   theme_heatmap(6.2) +
   theme(
-    legend.position = "right",
-    legend.title = element_text(size = 6.2),
-    legend.text = element_text(size = 5.8),
+    legend.position = "bottom",
+    legend.title = element_text(size = 6.8, margin = margin(r = 12)),
+    legend.text = element_text(size = 6.3),
     strip.placement = "outside",
     strip.background = element_rect(fill = "#F1F1F1", colour = NA),
-    strip.text.x = element_text(size = 6.4, face = "bold"),
-    strip.text.y.left = element_text(size = 6.4, face = "bold", angle = 0),
-    axis.text.x = element_text(size = 5.1, angle = 35, hjust = 1, vjust = 1),
-    axis.text.y = element_text(size = 5.6),
+    strip.text.x = element_text(size = 7.4, face = "bold"),
+    strip.text.y.left = element_text(size = 6.8, face = "bold", angle = 0,
+                                   margin = margin(2, 1, 2, 1)),
+    axis.text.x = element_text(size = 6.7, angle = 0, hjust = 0.5, vjust = 1),
+    axis.text.y = element_text(size = 6.9),
     panel.spacing.x = grid::unit(1.2, "mm"),
     panel.spacing.y = grid::unit(1.3, "mm"),
     plot.margin = margin(3, 4, 3, 3)
   )
 
-save_pub_r(fig, out_stem, width_mm = 183, height_mm = 128)
+save_pub_r(fig, out_stem, width_mm = 178, height_mm = 128)
 
 png_file <- paste0(out_stem, ".png")
 # Render from the canonical SVG. This avoids Poppler filename-format warnings

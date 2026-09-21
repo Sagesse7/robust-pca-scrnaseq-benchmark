@@ -94,6 +94,7 @@ method_group <- function(x) {
 }
 
 theme_journal <- function(base_size = 6.5, base_family = "Arial") {
+  base_size <- max(base_size, 6.8)
   ggplot2::theme_classic(base_size = base_size, base_family = base_family) +
     ggplot2::theme(
       axis.line = ggplot2::element_line(linewidth = 0.35, colour = "#252525"),
@@ -143,9 +144,28 @@ save_pub_r <- function(plot, stem, width_mm, height_mm, bg = "white") {
   print(plot)
   grDevices::dev.off()
 
-  # This R installation lacks the XQuartz libraries required by cairo_pdf().
-  # Convert the canonical editable SVG with librsvg instead; artwork stays vector.
+  # Align the title's visible glyphs with the horizontal colorbar center.
+  if (grepl("^Figure(03_|S01_|S02_|S03_)", basename(stem))) {
+    doc <- xml2::read_xml(svg_file)
+    label <- if (grepl("^FigureS01_", basename(stem))) "ARI" else "Score"
+    title <- xml2::xml_find_all(doc, paste0("//*[local-name()='text' and text()='", label, "']"))
+    bar <- xml2::xml_find_all(doc, "//*[local-name()='image']")
+    stopifnot(length(title) == 1L, length(bar) == 1L)
+    style <- xml2::xml_attr(title, "style")
+    size <- as.numeric(sub(".*font-size: ([0-9.]+)px.*", "\\1", style))
+    family <- sub('.*font-family: "([^"]+)".*', "\\1", style)
+    metrics <- systemfonts::glyph_info(strsplit(label, "", fixed = TRUE)[[1]],
+                                      family = family, size = size, res = 7200)
+    ink_top <- max(metrics$y_bearing) / 100
+    ink_bottom <- min(metrics$y_bearing - metrics$height) / 100
+    center <- as.numeric(xml2::xml_attr(bar, "y")) + as.numeric(xml2::xml_attr(bar, "height")) / 2
+    xml2::xml_attr(title, "y") <- sprintf("%.3f", center + (ink_top + ink_bottom) / 2)
+    xml2::write_xml(doc, svg_file)
+  }
+
+  # Convert the canonical editable SVG with librsvg; artwork stays vector.
   rsvg::rsvg_pdf(svg_file, pdf_file)
+  rsvg::rsvg_png(svg_file, paste0(stem, ".png"), width = round(width_mm / 25.4 * 240))
 
   invisible(c(pdf = pdf_file, svg = svg_file))
 }

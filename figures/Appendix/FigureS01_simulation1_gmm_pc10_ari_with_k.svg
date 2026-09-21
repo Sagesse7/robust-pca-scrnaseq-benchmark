@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504.57pt" height="439.37pt" viewBox="0 0 504.57 439.37">
+  <g class="svglite">
+    <defs>
+      <style type="text/css"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+    </defs>
+    <rect width="100%" height="100%" style="stroke: none; fill: #FFFFFF;"/>
+    <defs>
+      <clipPath id="cpMC4wMHw1MDQuNTd8MC4wMHw0MzkuMzc=">
+        <rect x="0.00" y="0.00" width="504.57" height="439.37"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#cpMC4wMHw1MDQuNTd8MC4wMHw0MzkuMzc=)">
+      <rect x="0.000000000000064" y="0.00" width="504.57" height="439.37" style="stroke-width: 0.66; stroke: #FFFFFF; fill: #FFFFFF;"/>
+    </g>
+    <defs>
+      <clipPath id="cpMzYuODl8MjQ2LjEyfDE1LjI2fDE5Mi4yNA==">
+        <rect x="36.89" y="15.26" width="209.23" height="176.98"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#cpMzYuODl8MjQ2LjEyfDE1LjI2fDE5Mi4yNA==)">
+      <rect x="36.89" y="15.26" width="209.23" height="176.98" style="stroke-width: 0.66; stroke: none; fill: #FFFFFF;"/>
+      <rect x="40.91" y="34.34" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #02214E;"/>
+      <rect x="40.91" y="51.69" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #AA9F73;"/>
+      <rect x="40.91" y="69.04" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #F0DC53;"/>
+      <rect x="40.91" y="16.99" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #948E78;"/>
+      <rect x="40.91" y="86.40" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BDAF6D;"/>
+      <rect x="40.91" y="103.75" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A59B74;"/>
+      <rect x="40.91" y="121.10" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #9B9377;"/>
+      <rect x="40.91" y="138.45" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A99E73;"/>
+      <rect x="40.91" y="155.80" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A19875;"/>
+      <rect x="40.91" y="173.15" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A69C74;"/>
+      <rect x="81.15" y="34.34" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="81.15" y="51.69" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C2B36C;"/>
+      <rect x="81.15" y="69.04" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="81.15" y="16.99" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #9D9576;"/>
+      <rect x="81.15" y="86.40" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CEBD68;"/>
+      <rect x="81.15" y="103.75" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A59B74;"/>
+      <rect x="81.15" y="121.10" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #AA9F73;"/>
+      <rect x="81.15" y="138.45" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C8B86A;"/>
+      <rect x="81.15" y="155.80" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A99E73;"/>
+      <rect x="81.15" y="173.15" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B7AA6F;"/>
+      <rect x="121.39" y="34.34" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="121.39" y="51.69" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #DCC960;"/>
+      <rect x="121.39" y="69.04" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D8C562;"/>
+      <rect x="121.39" y="16.99" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D6C463;"/>
+      <rect x="121.39" y="86.40" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #E2CF5C;"/>
+      <rect x="121.39" y="103.75" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D6C463;"/>
+      <rect x="121.39" y="121.10" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D9C662;"/>
+      <rect x="121.39" y="138.45" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #DDCA5F;"/>
+      <rect x="121.39" y="155.80" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CBBA69;"/>
+      <rect x="121.39" y="173.15" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #DBC960;"/>
+      <rect x="161.62" y="34.34" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #01204D;"/>
+      <rect x="161.62" y="51.69" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #9B9477;"/>
+      <rect x="161.62" y="69.04" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #60646F;"/>
+      <rect x="161.62" y="16.99" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A79D74;"/>
+      <rect x="161.62" y="86.40" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #AFA372;"/>
+      <rect x="161.62" y="103.75" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #ABA073;"/>
+      <rect x="161.62" y="121.10" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #ACA173;"/>
+      <rect x="161.62" y="138.45" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #AEA272;"/>
+      <rect x="161.62" y="155.80" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #AA9F73;"/>
+      <rect x="161.62" y="173.15" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #ACA172;"/>
+      <rect x="201.86" y="34.34" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="201.86" y="51.69" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #1C315B;"/>
+      <rect x="201.86" y="69.04" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #01204D;"/>
+      <rect x="201.86" y="16.99" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #2F4269;"/>
+      <rect x="201.86" y="86.40" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #3A496C;"/>
+      <rect x="201.86" y="103.75" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #223660;"/>
+      <rect x="201.86" y="121.10" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #21365F;"/>
+      <rect x="201.86" y="138.45" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #273B63;"/>
+      <rect x="201.86" y="155.80" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #142B57;"/>
+      <rect x="201.86" y="173.15" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #1E325D;"/>
+      <text x="61.03" y="41.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.01</text>
+      <text x="61.03" y="48.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="18.83px" lengthAdjust="spacingAndGlyphs">G=11.2</text>
+      <text x="61.03" y="59.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.68</text>
+      <text x="61.03" y="65.78" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.0</text>
+      <text x="61.03" y="76.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.94</text>
+      <text x="61.03" y="83.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.6</text>
+      <text x="61.03" y="24.43" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.59</text>
+      <text x="61.03" y="31.08" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=10.5</text>
+      <text x="61.03" y="93.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.75</text>
+      <text x="61.03" y="100.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.6</text>
+      <text x="61.03" y="111.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="61.03" y="117.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.2</text>
+      <text x="61.03" y="128.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.62</text>
+      <text x="61.03" y="135.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.5</text>
+      <text x="61.03" y="145.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="61.03" y="152.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.4</text>
+      <text x="61.03" y="163.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.64</text>
+      <text x="61.03" y="169.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="61.03" y="180.59" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="61.03" y="187.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.4</text>
+      <text x="101.27" y="41.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="101.27" y="48.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=12.8</text>
+      <text x="101.27" y="59.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.77</text>
+      <text x="101.27" y="65.78" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.7</text>
+      <text x="101.27" y="76.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="101.27" y="83.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.0</text>
+      <text x="101.27" y="24.43" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.63</text>
+      <text x="101.27" y="31.08" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.3</text>
+      <text x="101.27" y="93.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.81</text>
+      <text x="101.27" y="100.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.4</text>
+      <text x="101.27" y="111.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="101.27" y="117.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.6</text>
+      <text x="101.27" y="128.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.68</text>
+      <text x="101.27" y="135.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.1</text>
+      <text x="101.27" y="145.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.79</text>
+      <text x="101.27" y="152.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.6</text>
+      <text x="101.27" y="163.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="101.27" y="169.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.0</text>
+      <text x="101.27" y="180.59" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.73</text>
+      <text x="101.27" y="187.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.3</text>
+      <text x="141.50" y="41.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="141.50" y="48.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=12.3</text>
+      <text x="141.50" y="59.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.87</text>
+      <text x="141.50" y="65.78" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=4.6</text>
+      <text x="141.50" y="76.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.85</text>
+      <text x="141.50" y="83.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=4.2</text>
+      <text x="141.50" y="24.43" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.84</text>
+      <text x="141.50" y="31.08" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.6</text>
+      <text x="141.50" y="93.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.89</text>
+      <text x="141.50" y="100.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=4.8</text>
+      <text x="141.50" y="111.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.84</text>
+      <text x="141.50" y="117.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.4</text>
+      <text x="141.50" y="128.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.85</text>
+      <text x="141.50" y="135.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.3</text>
+      <text x="141.50" y="145.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.87</text>
+      <text x="141.50" y="152.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=4.9</text>
+      <text x="141.50" y="163.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.80</text>
+      <text x="141.50" y="169.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.5</text>
+      <text x="141.50" y="180.59" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.86</text>
+      <text x="141.50" y="187.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.1</text>
+      <text x="181.74" y="41.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="181.74" y="48.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=13.8</text>
+      <text x="181.74" y="59.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.62</text>
+      <text x="181.74" y="65.78" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=3.7</text>
+      <text x="181.74" y="76.48" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.38</text>
+      <text x="181.74" y="83.13" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=3.1</text>
+      <text x="181.74" y="24.43" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="181.74" y="31.08" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=4.6</text>
+      <text x="181.74" y="93.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.69</text>
+      <text x="181.74" y="100.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=4.1</text>
+      <text x="181.74" y="111.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.68</text>
+      <text x="181.74" y="117.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=4.1</text>
+      <text x="181.74" y="128.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.68</text>
+      <text x="181.74" y="135.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=3.9</text>
+      <text x="181.74" y="145.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.69</text>
+      <text x="181.74" y="152.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=4.1</text>
+      <text x="181.74" y="163.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.68</text>
+      <text x="181.74" y="169.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=4.0</text>
+      <text x="181.74" y="180.59" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.68</text>
+      <text x="181.74" y="187.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=4.0</text>
+      <text x="221.97" y="41.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="221.97" y="48.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=14.3</text>
+      <text x="221.97" y="59.13" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.10</text>
+      <text x="221.97" y="65.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=2.2</text>
+      <text x="221.97" y="76.48" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="221.97" y="83.13" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=3.4</text>
+      <text x="221.97" y="24.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.19</text>
+      <text x="221.97" y="31.08" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=3.8</text>
+      <text x="221.97" y="93.83" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.23</text>
+      <text x="221.97" y="100.48" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=2.5</text>
+      <text x="221.97" y="111.18" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.13</text>
+      <text x="221.97" y="117.83" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=2.8</text>
+      <text x="221.97" y="128.53" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.12</text>
+      <text x="221.97" y="135.18" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=2.9</text>
+      <text x="221.97" y="145.89" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.15</text>
+      <text x="221.97" y="152.53" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=2.7</text>
+      <text x="221.97" y="163.24" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.07</text>
+      <text x="221.97" y="169.89" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=2.5</text>
+      <text x="221.97" y="180.59" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="10.89px" lengthAdjust="spacingAndGlyphs">0.11</text>
+      <text x="221.97" y="187.24" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=2.5</text>
+    </g>
+    <g clip-path="url(#cpMC4wMHw1MDQuNTd8MC4wMHw0MzkuMzc=)">
+</g>
+    <defs>
+      <clipPath id="cpMzYuODl8MjQ2LjEyfDIyMy40MHw0MDAuMzg=">
+        <rect x="36.89" y="223.40" width="209.23" height="176.98"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#cpMzYuODl8MjQ2LjEyfDIyMy40MHw0MDAuMzg=)">
+      <rect x="36.89" y="223.40" width="209.23" height="176.98" style="stroke-width: 0.66; stroke: none; fill: #FFFFFF;"/>
+      <rect x="40.91" y="242.49" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #01204D;"/>
+      <rect x="40.91" y="259.84" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C7B76A;"/>
+      <rect x="40.91" y="277.19" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="40.91" y="225.13" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A89D74;"/>
+      <rect x="40.91" y="294.54" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D6C463;"/>
+      <rect x="40.91" y="311.89" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A79D74;"/>
+      <rect x="40.91" y="329.24" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A69C74;"/>
+      <rect x="40.91" y="346.59" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C7B66A;"/>
+      <rect x="40.91" y="363.94" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A19875;"/>
+      <rect x="40.91" y="381.30" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFB06D;"/>
+      <rect x="81.15" y="242.49" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="81.15" y="259.84" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CEBC68;"/>
+      <rect x="81.15" y="277.19" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="81.15" y="225.13" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A29975;"/>
+      <rect x="81.15" y="294.54" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D8C562;"/>
+      <rect x="81.15" y="311.89" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A69C74;"/>
+      <rect x="81.15" y="329.24" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #AA9F73;"/>
+      <rect x="81.15" y="346.59" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C1B26C;"/>
+      <rect x="81.15" y="363.94" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A79C74;"/>
+      <rect x="81.15" y="381.30" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BAAC6F;"/>
+      <rect x="121.39" y="242.49" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #01204D;"/>
+      <rect x="121.39" y="259.84" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C8B76A;"/>
+      <rect x="121.39" y="277.19" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #F3DF50;"/>
+      <rect x="121.39" y="225.13" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A69C74;"/>
+      <rect x="121.39" y="294.54" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CCBB69;"/>
+      <rect x="121.39" y="311.89" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A89D74;"/>
+      <rect x="121.39" y="329.24" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B0A471;"/>
+      <rect x="121.39" y="346.59" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFB06D;"/>
+      <rect x="121.39" y="363.94" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A49A75;"/>
+      <rect x="121.39" y="381.30" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C1B26C;"/>
+      <rect x="161.62" y="242.49" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="161.62" y="259.84" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C8B86A;"/>
+      <rect x="161.62" y="277.19" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="161.62" y="225.13" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A69C74;"/>
+      <rect x="161.62" y="294.54" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D7C563;"/>
+      <rect x="161.62" y="311.89" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A59C74;"/>
+      <rect x="161.62" y="329.24" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #ADA272;"/>
+      <rect x="161.62" y="346.59" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C0B16D;"/>
+      <rect x="161.62" y="363.94" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #9F9776;"/>
+      <rect x="161.62" y="381.30" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B1A571;"/>
+      <rect x="201.86" y="242.49" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #01204D;"/>
+      <rect x="201.86" y="259.84" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CDBB68;"/>
+      <rect x="201.86" y="277.19" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="201.86" y="225.13" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #ABA073;"/>
+      <rect x="201.86" y="294.54" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CEBC68;"/>
+      <rect x="201.86" y="311.89" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A89D74;"/>
+      <rect x="201.86" y="329.24" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A79C74;"/>
+      <rect x="201.86" y="346.59" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CABA69;"/>
+      <rect x="201.86" y="363.94" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A59B74;"/>
+      <rect x="201.86" y="381.30" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B8AB6F;"/>
+      <text x="61.03" y="249.92" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="61.03" y="256.57" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=12.0</text>
+      <text x="61.03" y="267.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.79</text>
+      <text x="61.03" y="273.92" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.6</text>
+      <text x="61.03" y="284.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="61.03" y="291.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.0</text>
+      <text x="61.03" y="232.57" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="61.03" y="239.22" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.8</text>
+      <text x="61.03" y="301.97" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.84</text>
+      <text x="61.03" y="308.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.2</text>
+      <text x="61.03" y="319.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="61.03" y="325.98" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="61.03" y="336.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="61.03" y="343.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="61.03" y="354.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.78</text>
+      <text x="61.03" y="360.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.7</text>
+      <text x="61.03" y="371.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.64</text>
+      <text x="61.03" y="378.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="61.03" y="388.73" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.75</text>
+      <text x="61.03" y="395.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.1</text>
+      <text x="101.27" y="249.92" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="101.27" y="256.57" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=12.3</text>
+      <text x="101.27" y="267.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.81</text>
+      <text x="101.27" y="273.92" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.2</text>
+      <text x="101.27" y="284.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="101.27" y="291.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.0</text>
+      <text x="101.27" y="232.57" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.65</text>
+      <text x="101.27" y="239.22" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.0</text>
+      <text x="101.27" y="301.97" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.85</text>
+      <text x="101.27" y="308.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.1</text>
+      <text x="101.27" y="319.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="101.27" y="325.98" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="101.27" y="336.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.68</text>
+      <text x="101.27" y="343.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.4</text>
+      <text x="101.27" y="354.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.76</text>
+      <text x="101.27" y="360.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.8</text>
+      <text x="101.27" y="371.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="101.27" y="378.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.1</text>
+      <text x="101.27" y="388.73" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.74</text>
+      <text x="101.27" y="395.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.3</text>
+      <text x="141.50" y="249.92" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="141.50" y="256.57" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.1</text>
+      <text x="141.50" y="267.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.79</text>
+      <text x="141.50" y="273.92" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.5</text>
+      <text x="141.50" y="284.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.96</text>
+      <text x="141.50" y="291.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.2</text>
+      <text x="141.50" y="232.57" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="141.50" y="239.22" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.6</text>
+      <text x="141.50" y="301.97" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.80</text>
+      <text x="141.50" y="308.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.7</text>
+      <text x="141.50" y="319.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="141.50" y="325.98" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.6</text>
+      <text x="141.50" y="336.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.70</text>
+      <text x="141.50" y="343.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.8</text>
+      <text x="141.50" y="354.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.76</text>
+      <text x="141.50" y="360.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.1</text>
+      <text x="141.50" y="371.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.65</text>
+      <text x="141.50" y="378.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.3</text>
+      <text x="141.50" y="388.73" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.76</text>
+      <text x="141.50" y="395.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.8</text>
+      <text x="181.74" y="249.92" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="181.74" y="256.57" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=12.2</text>
+      <text x="181.74" y="267.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.79</text>
+      <text x="181.74" y="273.92" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.5</text>
+      <text x="181.74" y="284.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="181.74" y="291.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.0</text>
+      <text x="181.74" y="232.57" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="181.74" y="239.22" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.6</text>
+      <text x="181.74" y="301.97" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.85</text>
+      <text x="181.74" y="308.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.3</text>
+      <text x="181.74" y="319.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="181.74" y="325.98" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="181.74" y="336.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.69</text>
+      <text x="181.74" y="343.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.1</text>
+      <text x="181.74" y="354.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.76</text>
+      <text x="181.74" y="360.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.0</text>
+      <text x="181.74" y="371.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.64</text>
+      <text x="181.74" y="378.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.4</text>
+      <text x="181.74" y="388.73" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.70</text>
+      <text x="181.74" y="395.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.7</text>
+      <text x="221.97" y="249.92" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="221.97" y="256.57" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="18.83px" lengthAdjust="spacingAndGlyphs">G=11.7</text>
+      <text x="221.97" y="267.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.81</text>
+      <text x="221.97" y="273.92" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.2</text>
+      <text x="221.97" y="284.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="221.97" y="291.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.0</text>
+      <text x="221.97" y="232.57" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.68</text>
+      <text x="221.97" y="239.22" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.5</text>
+      <text x="221.97" y="301.97" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.81</text>
+      <text x="221.97" y="308.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.6</text>
+      <text x="221.97" y="319.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="221.97" y="325.98" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.5</text>
+      <text x="221.97" y="336.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="221.97" y="343.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.6</text>
+      <text x="221.97" y="354.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.80</text>
+      <text x="221.97" y="360.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.4</text>
+      <text x="221.97" y="371.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="221.97" y="378.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.1</text>
+      <text x="221.97" y="388.73" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.73</text>
+      <text x="221.97" y="395.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.4</text>
+    </g>
+    <g clip-path="url(#cpMC4wMHw1MDQuNTd8MC4wMHw0MzkuMzc=)">
+</g>
+    <defs>
+      <clipPath id="cpMjkxLjM2fDUwMC41OHwxNS4yNnwxOTIuMjQ=">
+        <rect x="291.36" y="15.26" width="209.23" height="176.98"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#cpMjkxLjM2fDUwMC41OHwxNS4yNnwxOTIuMjQ=)">
+      <rect x="291.36" y="15.26" width="209.23" height="176.98" style="stroke-width: 0.66; stroke: none; fill: #FFFFFF;"/>
+      <rect x="295.38" y="34.34" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="295.38" y="51.69" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D0BE67;"/>
+      <rect x="295.38" y="69.04" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #F3DF50;"/>
+      <rect x="295.38" y="16.99" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A69C74;"/>
+      <rect x="295.38" y="86.40" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #DAC761;"/>
+      <rect x="295.38" y="103.75" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A89D74;"/>
+      <rect x="295.38" y="121.10" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A49A75;"/>
+      <rect x="295.38" y="138.45" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CDBC68;"/>
+      <rect x="295.38" y="155.80" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #AFA372;"/>
+      <rect x="295.38" y="173.15" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BBAD6E;"/>
+      <rect x="335.62" y="34.34" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="335.62" y="51.69" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D6C463;"/>
+      <rect x="335.62" y="69.04" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="335.62" y="16.99" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B7AA6F;"/>
+      <rect x="335.62" y="86.40" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #E4D15B;"/>
+      <rect x="335.62" y="103.75" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B7AA6F;"/>
+      <rect x="335.62" y="121.10" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B5A870;"/>
+      <rect x="335.62" y="138.45" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #E7D359;"/>
+      <rect x="335.62" y="155.80" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B1A571;"/>
+      <rect x="335.62" y="173.15" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C2B26C;"/>
+      <rect x="375.85" y="34.34" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="375.85" y="51.69" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #DECB5F;"/>
+      <rect x="375.85" y="69.04" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="375.85" y="16.99" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B9AB6F;"/>
+      <rect x="375.85" y="86.40" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #E6D359;"/>
+      <rect x="375.85" y="103.75" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BBAD6E;"/>
+      <rect x="375.85" y="121.10" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B6A870;"/>
+      <rect x="375.85" y="138.45" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #DDCA60;"/>
+      <rect x="375.85" y="155.80" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B5A870;"/>
+      <rect x="375.85" y="173.15" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CAB969;"/>
+      <rect x="416.09" y="34.34" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #01204D;"/>
+      <rect x="416.09" y="51.69" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CCBB69;"/>
+      <rect x="416.09" y="69.04" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #F6E24E;"/>
+      <rect x="416.09" y="16.99" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B9AB6F;"/>
+      <rect x="416.09" y="86.40" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #E4D05B;"/>
+      <rect x="416.09" y="103.75" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B7AA6F;"/>
+      <rect x="416.09" y="121.10" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B9AB6F;"/>
+      <rect x="416.09" y="138.45" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CFBE67;"/>
+      <rect x="416.09" y="155.80" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #ADA272;"/>
+      <rect x="416.09" y="173.15" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CEBD67;"/>
+      <rect x="456.32" y="34.34" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #01204D;"/>
+      <rect x="456.32" y="51.69" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #E7D359;"/>
+      <rect x="456.32" y="69.04" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #F8E34C;"/>
+      <rect x="456.32" y="16.99" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CFBD67;"/>
+      <rect x="456.32" y="86.40" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #E9D558;"/>
+      <rect x="456.32" y="103.75" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C0B16D;"/>
+      <rect x="456.32" y="121.10" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C1B26C;"/>
+      <rect x="456.32" y="138.45" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #E1CD5D;"/>
+      <rect x="456.32" y="155.80" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CEBC68;"/>
+      <rect x="456.32" y="173.15" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D2C066;"/>
+      <text x="315.50" y="41.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="315.50" y="48.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=10.6</text>
+      <text x="315.50" y="59.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.82</text>
+      <text x="315.50" y="65.78" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.7</text>
+      <text x="315.50" y="76.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.95</text>
+      <text x="315.50" y="83.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.6</text>
+      <text x="315.50" y="24.43" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="315.50" y="31.08" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.7</text>
+      <text x="315.50" y="93.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.86</text>
+      <text x="315.50" y="100.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.5</text>
+      <text x="315.50" y="111.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="315.50" y="117.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.1</text>
+      <text x="315.50" y="128.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.65</text>
+      <text x="315.50" y="135.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.3</text>
+      <text x="315.50" y="145.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.81</text>
+      <text x="315.50" y="152.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.1</text>
+      <text x="315.50" y="163.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.70</text>
+      <text x="315.50" y="169.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.5</text>
+      <text x="315.50" y="180.59" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.74</text>
+      <text x="315.50" y="187.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.0</text>
+      <text x="355.73" y="41.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="355.73" y="48.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="18.83px" lengthAdjust="spacingAndGlyphs">G=11.0</text>
+      <text x="355.73" y="59.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.84</text>
+      <text x="355.73" y="65.78" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.1</text>
+      <text x="355.73" y="76.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="355.73" y="83.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.0</text>
+      <text x="355.73" y="24.43" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.72</text>
+      <text x="355.73" y="31.08" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.1</text>
+      <text x="355.73" y="93.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.90</text>
+      <text x="355.73" y="100.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.0</text>
+      <text x="355.73" y="111.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.72</text>
+      <text x="355.73" y="117.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.9</text>
+      <text x="355.73" y="128.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.72</text>
+      <text x="355.73" y="135.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.9</text>
+      <text x="355.73" y="145.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.91</text>
+      <text x="355.73" y="152.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.7</text>
+      <text x="355.73" y="163.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.70</text>
+      <text x="355.73" y="169.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.8</text>
+      <text x="355.73" y="180.59" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.77</text>
+      <text x="355.73" y="187.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.1</text>
+      <text x="395.97" y="41.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="395.97" y="48.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=10.9</text>
+      <text x="395.97" y="59.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.87</text>
+      <text x="395.97" y="65.78" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.8</text>
+      <text x="395.97" y="76.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="395.97" y="83.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.0</text>
+      <text x="395.97" y="24.43" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.73</text>
+      <text x="395.97" y="31.08" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.8</text>
+      <text x="395.97" y="93.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.91</text>
+      <text x="395.97" y="100.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.2</text>
+      <text x="395.97" y="111.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.74</text>
+      <text x="395.97" y="117.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.1</text>
+      <text x="395.97" y="128.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.72</text>
+      <text x="395.97" y="135.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.3</text>
+      <text x="395.97" y="145.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.87</text>
+      <text x="395.97" y="152.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.1</text>
+      <text x="395.97" y="163.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.72</text>
+      <text x="395.97" y="169.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="395.97" y="180.59" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.80</text>
+      <text x="395.97" y="187.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.1</text>
+      <text x="436.20" y="41.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="436.20" y="48.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=10.1</text>
+      <text x="436.20" y="59.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.80</text>
+      <text x="436.20" y="65.78" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.0</text>
+      <text x="436.20" y="76.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.97</text>
+      <text x="436.20" y="83.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.4</text>
+      <text x="436.20" y="24.43" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.73</text>
+      <text x="436.20" y="31.08" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.0</text>
+      <text x="436.20" y="93.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.89</text>
+      <text x="436.20" y="100.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.5</text>
+      <text x="436.20" y="111.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.73</text>
+      <text x="436.20" y="117.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.1</text>
+      <text x="436.20" y="128.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.73</text>
+      <text x="436.20" y="135.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.0</text>
+      <text x="436.20" y="145.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.82</text>
+      <text x="436.20" y="152.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.9</text>
+      <text x="436.20" y="163.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.69</text>
+      <text x="436.20" y="169.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.7</text>
+      <text x="436.20" y="180.59" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.81</text>
+      <text x="436.20" y="187.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.2</text>
+      <text x="476.44" y="41.78" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="476.44" y="48.43" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="18.83px" lengthAdjust="spacingAndGlyphs">G=11.1</text>
+      <text x="476.44" y="59.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.91</text>
+      <text x="476.44" y="65.78" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.9</text>
+      <text x="476.44" y="76.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.97</text>
+      <text x="476.44" y="83.13" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.2</text>
+      <text x="476.44" y="24.43" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.81</text>
+      <text x="476.44" y="31.08" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.3</text>
+      <text x="476.44" y="93.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.91</text>
+      <text x="476.44" y="100.48" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.5</text>
+      <text x="476.44" y="111.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.76</text>
+      <text x="476.44" y="117.83" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.1</text>
+      <text x="476.44" y="128.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.76</text>
+      <text x="476.44" y="135.18" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.4</text>
+      <text x="476.44" y="145.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.88</text>
+      <text x="476.44" y="152.53" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.6</text>
+      <text x="476.44" y="163.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.81</text>
+      <text x="476.44" y="169.89" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.5</text>
+      <text x="476.44" y="180.59" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.82</text>
+      <text x="476.44" y="187.24" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+    </g>
+    <g clip-path="url(#cpMC4wMHw1MDQuNTd8MC4wMHw0MzkuMzc=)">
+</g>
+    <defs>
+      <clipPath id="cpMjkxLjM2fDUwMC41OHwyMjMuNDB8NDAwLjM4">
+        <rect x="291.36" y="223.40" width="209.23" height="176.98"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#cpMjkxLjM2fDUwMC41OHwyMjMuNDB8NDAwLjM4)">
+      <rect x="291.36" y="223.40" width="209.23" height="176.98" style="stroke-width: 0.66; stroke: none; fill: #FFFFFF;"/>
+      <rect x="295.38" y="242.49" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #01214E;"/>
+      <rect x="295.38" y="259.84" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CAB969;"/>
+      <rect x="295.38" y="277.19" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="295.38" y="225.13" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #ACA172;"/>
+      <rect x="295.38" y="294.54" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D3C165;"/>
+      <rect x="295.38" y="311.89" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A69C74;"/>
+      <rect x="295.38" y="329.24" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A99F73;"/>
+      <rect x="295.38" y="346.59" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C4B46C;"/>
+      <rect x="295.38" y="363.94" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A49B74;"/>
+      <rect x="295.38" y="381.30" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BAAC6E;"/>
+      <rect x="335.62" y="242.49" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #01204D;"/>
+      <rect x="335.62" y="259.84" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C7B76A;"/>
+      <rect x="335.62" y="277.19" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="335.62" y="225.13" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A89D74;"/>
+      <rect x="335.62" y="294.54" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D6C463;"/>
+      <rect x="335.62" y="311.89" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A79D74;"/>
+      <rect x="335.62" y="329.24" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A69C74;"/>
+      <rect x="335.62" y="346.59" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C7B66A;"/>
+      <rect x="335.62" y="363.94" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A19875;"/>
+      <rect x="335.62" y="381.30" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFB06D;"/>
+      <rect x="375.85" y="242.49" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="375.85" y="259.84" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CDBC68;"/>
+      <rect x="375.85" y="277.19" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="375.85" y="225.13" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #ADA272;"/>
+      <rect x="375.85" y="294.54" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D1C066;"/>
+      <rect x="375.85" y="311.89" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A29975;"/>
+      <rect x="375.85" y="329.24" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A29975;"/>
+      <rect x="375.85" y="346.59" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFB06D;"/>
+      <rect x="375.85" y="363.94" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #9E9676;"/>
+      <rect x="375.85" y="381.30" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BBAD6E;"/>
+      <rect x="416.09" y="242.49" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="416.09" y="259.84" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D2C065;"/>
+      <rect x="416.09" y="277.19" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #FAE54B;"/>
+      <rect x="416.09" y="225.13" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A19875;"/>
+      <rect x="416.09" y="294.54" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D8C562;"/>
+      <rect x="416.09" y="311.89" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A59B74;"/>
+      <rect x="416.09" y="329.24" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #AFA372;"/>
+      <rect x="416.09" y="346.59" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #BBAC6E;"/>
+      <rect x="416.09" y="363.94" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A19875;"/>
+      <rect x="416.09" y="381.30" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #B6A970;"/>
+      <rect x="456.32" y="242.49" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #00204D;"/>
+      <rect x="456.32" y="259.84" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D3C165;"/>
+      <rect x="456.32" y="277.19" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #F9E44C;"/>
+      <rect x="456.32" y="225.13" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #ADA272;"/>
+      <rect x="456.32" y="294.54" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #CDBC68;"/>
+      <rect x="456.32" y="311.89" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A39A75;"/>
+      <rect x="456.32" y="329.24" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A99E73;"/>
+      <rect x="456.32" y="346.59" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C1B26C;"/>
+      <rect x="456.32" y="363.94" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #ADA272;"/>
+      <rect x="456.32" y="381.30" width="40.24" height="17.35" style="stroke-width: 0.47; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3B46C;"/>
+      <text x="315.50" y="249.92" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="315.50" y="256.57" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=10.8</text>
+      <text x="315.50" y="267.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.80</text>
+      <text x="315.50" y="273.92" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.4</text>
+      <text x="315.50" y="284.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="315.50" y="291.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.0</text>
+      <text x="315.50" y="232.57" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.68</text>
+      <text x="315.50" y="239.22" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.4</text>
+      <text x="315.50" y="301.97" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.83</text>
+      <text x="315.50" y="308.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.4</text>
+      <text x="315.50" y="319.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="315.50" y="325.98" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.4</text>
+      <text x="315.50" y="336.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="315.50" y="343.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.4</text>
+      <text x="315.50" y="354.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.77</text>
+      <text x="315.50" y="360.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.7</text>
+      <text x="315.50" y="371.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="315.50" y="378.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.1</text>
+      <text x="315.50" y="388.73" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.74</text>
+      <text x="315.50" y="395.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.2</text>
+      <text x="355.73" y="249.92" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="355.73" y="256.57" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="19.27px" lengthAdjust="spacingAndGlyphs">G=12.0</text>
+      <text x="355.73" y="267.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.79</text>
+      <text x="355.73" y="273.92" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.6</text>
+      <text x="355.73" y="284.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="355.73" y="291.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.0</text>
+      <text x="355.73" y="232.57" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="355.73" y="239.22" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.8</text>
+      <text x="355.73" y="301.97" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.84</text>
+      <text x="355.73" y="308.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.2</text>
+      <text x="355.73" y="319.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="355.73" y="325.98" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="355.73" y="336.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="355.73" y="343.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="355.73" y="354.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.78</text>
+      <text x="355.73" y="360.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.7</text>
+      <text x="355.73" y="371.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.64</text>
+      <text x="355.73" y="378.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="355.73" y="388.73" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.75</text>
+      <text x="355.73" y="395.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.1</text>
+      <text x="395.97" y="249.92" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="395.97" y="256.57" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="18.83px" lengthAdjust="spacingAndGlyphs">G=11.2</text>
+      <text x="395.97" y="267.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.81</text>
+      <text x="395.97" y="273.92" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.3</text>
+      <text x="395.97" y="284.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="395.97" y="291.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.0</text>
+      <text x="395.97" y="232.57" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.69</text>
+      <text x="395.97" y="239.22" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.3</text>
+      <text x="395.97" y="301.97" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.82</text>
+      <text x="395.97" y="308.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.5</text>
+      <text x="395.97" y="319.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.65</text>
+      <text x="395.97" y="325.98" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.9</text>
+      <text x="395.97" y="336.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.65</text>
+      <text x="395.97" y="343.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.8</text>
+      <text x="395.97" y="354.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.75</text>
+      <text x="395.97" y="360.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.9</text>
+      <text x="395.97" y="371.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.63</text>
+      <text x="395.97" y="378.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.8</text>
+      <text x="395.97" y="388.73" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.74</text>
+      <text x="395.97" y="395.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.2</text>
+      <text x="436.20" y="249.92" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="436.20" y="256.57" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.5</text>
+      <text x="436.20" y="267.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.83</text>
+      <text x="436.20" y="273.92" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.1</text>
+      <text x="436.20" y="284.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="436.20" y="291.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.0</text>
+      <text x="436.20" y="232.57" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.64</text>
+      <text x="436.20" y="239.22" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=9.1</text>
+      <text x="436.20" y="301.97" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.85</text>
+      <text x="436.20" y="308.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.3</text>
+      <text x="436.20" y="319.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.66</text>
+      <text x="436.20" y="325.98" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="436.20" y="336.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.70</text>
+      <text x="436.20" y="343.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.1</text>
+      <text x="436.20" y="354.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.74</text>
+      <text x="436.20" y="360.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.3</text>
+      <text x="436.20" y="371.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.64</text>
+      <text x="436.20" y="378.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.4</text>
+      <text x="436.20" y="388.73" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.72</text>
+      <text x="436.20" y="395.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.5</text>
+      <text x="476.44" y="249.92" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.00</text>
+      <text x="476.44" y="256.57" text-anchor="middle" style="font-size: 5.83px;fill: #FFFFFF; font-family: &quot;Arial&quot;;" textLength="18.83px" lengthAdjust="spacingAndGlyphs">G=11.0</text>
+      <text x="476.44" y="267.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.83</text>
+      <text x="476.44" y="273.92" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.1</text>
+      <text x="476.44" y="284.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.98</text>
+      <text x="476.44" y="291.27" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=5.2</text>
+      <text x="476.44" y="232.57" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.69</text>
+      <text x="476.44" y="239.22" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.2</text>
+      <text x="476.44" y="301.97" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.81</text>
+      <text x="476.44" y="308.62" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.4</text>
+      <text x="476.44" y="319.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.65</text>
+      <text x="476.44" y="325.98" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.7</text>
+      <text x="476.44" y="336.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.67</text>
+      <text x="476.44" y="343.33" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=8.4</text>
+      <text x="476.44" y="354.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.76</text>
+      <text x="476.44" y="360.68" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.0</text>
+      <text x="476.44" y="371.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.69</text>
+      <text x="476.44" y="378.03" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=7.8</text>
+      <text x="476.44" y="388.73" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">0.77</text>
+      <text x="476.44" y="395.38" text-anchor="middle" style="font-size: 5.83px;fill: #151515; font-family: &quot;Arial&quot;;" textLength="16.03px" lengthAdjust="spacingAndGlyphs">G=6.9</text>
+    </g>
+    <g clip-path="url(#cpMC4wMHw1MDQuNTd8MC4wMHw0MzkuMzc=)">
+</g>
+    <defs>
+      <clipPath id="cpMzYuODl8MjQ2LjEyfDIxMS4xM3wyMjMuNDA=">
+        <rect x="36.89" y="211.13" width="209.23" height="12.27"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#cpMzYuODl8MjQ2LjEyfDIxMS4xM3wyMjMuNDA=)">
+      <rect x="36.89" y="211.13" width="209.23" height="12.27" style="stroke-width: 1.32; stroke: none; fill: #F1F1F1;"/>
+      <text x="141.50" y="219.91" text-anchor="middle" style="font-size: 7.40px; font-weight: bold;fill: #202020; font-family: &quot;Arial&quot;;" textLength="68.98px" lengthAdjust="spacingAndGlyphs">Shifted-cell fraction</text>
+    </g>
+    <g clip-path="url(#cpMC4wMHw1MDQuNTd8MC4wMHw0MzkuMzc=)">
+</g>
+    <defs>
+      <clipPath id="cpMjkxLjM2fDUwMC41OHwyMTEuMTN8MjIzLjQw">
+        <rect x="291.36" y="211.13" width="209.23" height="12.27"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#cpMjkxLjM2fDUwMC41OHwyMTEuMTN8MjIzLjQw)">
+      <rect x="291.36" y="211.13" width="209.23" height="12.27" style="stroke-width: 1.32; stroke: none; fill: #F1F1F1;"/>
+      <text x="395.97" y="219.91" text-anchor="middle" style="font-size: 7.40px; font-weight: bold;fill: #202020; font-family: &quot;Arial&quot;;" textLength="55.84px" lengthAdjust="spacingAndGlyphs">Shift magnitude</text>
+    </g>
+    <g clip-path="url(#cpMC4wMHw1MDQuNTd8MC4wMHw0MzkuMzc=)">
+</g>
+    <defs>
+      <clipPath id="cpMzYuODl8MjQ2LjEyfDIuOTl8MTUuMjY=">
+        <rect x="36.89" y="2.99" width="209.23" height="12.27"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#cpMzYuODl8MjQ2LjEyfDIuOTl8MTUuMjY=)">
+      <rect x="36.89" y="2.99" width="209.23" height="12.27" style="stroke-width: 1.32; stroke: none; fill: #F1F1F1;"/>
+      <text x="141.50" y="11.77" text-anchor="middle" style="font-size: 7.40px; font-weight: bold;fill: #202020; font-family: &quot;Arial&quot;;" textLength="62.00px" lengthAdjust="spacingAndGlyphs">Dropout midpoint</text>
+    </g>
+    <g clip-path="url(#cpMC4wMHw1MDQuNTd8MC4wMHw0MzkuMzc=)">
+</g>
+    <defs>
+      <clipPath id="cpMjkxLjM2fDUwMC41OHwyLjk5fDE1LjI2">
+        <rect x="291.36" y="2.99" width="209.23" height="12.27"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#cpMjkxLjM2fDUwMC41OHwyLjk5fDE1LjI2)">
+      <rect x="291.36" y="2.99" width="209.23" height="12.27" style="stroke-width: 1.32; stroke: none; fill: #F1F1F1;"/>
+      <text x="395.97" y="11.77" text-anchor="middle" style="font-size: 7.40px; font-weight: bold;fill: #202020; font-family: &quot;Arial&quot;;" textLength="56.67px" lengthAdjust="spacingAndGlyphs">Doublet fraction</text>
+    </g>
+    <g clip-path="url(#cpMC4wMHw1MDQuNTd8MC4wMHw0MzkuMzc=)">
+      <text x="61.03" y="406.53" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="9.67px" lengthAdjust="spacingAndGlyphs">2%</text>
+      <text x="101.27" y="406.53" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="9.67px" lengthAdjust="spacingAndGlyphs">4%</text>
+      <text x="141.50" y="406.53" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="9.67px" lengthAdjust="spacingAndGlyphs">6%</text>
+      <text x="181.74" y="406.53" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="9.67px" lengthAdjust="spacingAndGlyphs">8%</text>
+      <text x="221.97" y="406.53" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="13.39px" lengthAdjust="spacingAndGlyphs">10%</text>
+      <text x="315.50" y="406.53" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="9.30px" lengthAdjust="spacingAndGlyphs">1.5</text>
+      <text x="355.73" y="406.53" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="3.72px" lengthAdjust="spacingAndGlyphs">2</text>
+      <text x="395.97" y="406.53" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="3.72px" lengthAdjust="spacingAndGlyphs">3</text>
+      <text x="436.20" y="406.53" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="3.72px" lengthAdjust="spacingAndGlyphs">4</text>
+      <text x="476.44" y="406.53" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="3.72px" lengthAdjust="spacingAndGlyphs">5</text>
+      <text x="61.03" y="198.38" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="5.95px" lengthAdjust="spacingAndGlyphs">-1</text>
+      <text x="101.27" y="198.38" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="3.72px" lengthAdjust="spacingAndGlyphs">0</text>
+      <text x="141.50" y="198.38" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="3.72px" lengthAdjust="spacingAndGlyphs">1</text>
+      <text x="181.74" y="198.38" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="3.72px" lengthAdjust="spacingAndGlyphs">2</text>
+      <text x="221.97" y="198.38" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="3.72px" lengthAdjust="spacingAndGlyphs">3</text>
+      <text x="315.50" y="198.38" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="9.67px" lengthAdjust="spacingAndGlyphs">2%</text>
+      <text x="355.73" y="198.38" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="9.67px" lengthAdjust="spacingAndGlyphs">5%</text>
+      <text x="395.97" y="198.38" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="9.67px" lengthAdjust="spacingAndGlyphs">8%</text>
+      <text x="436.20" y="198.38" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="13.39px" lengthAdjust="spacingAndGlyphs">10%</text>
+      <text x="476.44" y="198.38" text-anchor="middle" style="font-size: 6.70px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="13.39px" lengthAdjust="spacingAndGlyphs">15%</text>
+      <text x="290.00" y="184.29" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="8.80px" lengthAdjust="spacingAndGlyphs">LR</text>
+      <text x="290.00" y="166.94" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="15.31px" lengthAdjust="spacingAndGlyphs">Shell</text>
+      <text x="290.00" y="149.59" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="11.48px" lengthAdjust="spacingAndGlyphs">Ball</text>
+      <text x="290.00" y="132.24" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="16.84px" lengthAdjust="spacingAndGlyphs">Quad</text>
+      <text x="290.00" y="114.89" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="21.44px" lengthAdjust="spacingAndGlyphs">Winsor</text>
+      <text x="290.00" y="97.54" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="20.86px" lengthAdjust="spacingAndGlyphs">K's tau</text>
+      <text x="290.00" y="80.19" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="14.16px" lengthAdjust="spacingAndGlyphs">PCP</text>
+      <text x="290.00" y="62.84" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="32.55px" lengthAdjust="spacingAndGlyphs">PcaHubert</text>
+      <text x="290.00" y="45.48" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="24.89px" lengthAdjust="spacingAndGlyphs">PcaGrid</text>
+      <text x="290.00" y="28.13" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="14.16px" lengthAdjust="spacingAndGlyphs">PCA</text>
+      <text x="290.00" y="392.44" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="8.80px" lengthAdjust="spacingAndGlyphs">LR</text>
+      <text x="290.00" y="375.09" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="15.31px" lengthAdjust="spacingAndGlyphs">Shell</text>
+      <text x="290.00" y="357.73" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="11.48px" lengthAdjust="spacingAndGlyphs">Ball</text>
+      <text x="290.00" y="340.38" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="16.84px" lengthAdjust="spacingAndGlyphs">Quad</text>
+      <text x="290.00" y="323.03" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="21.44px" lengthAdjust="spacingAndGlyphs">Winsor</text>
+      <text x="290.00" y="305.68" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="20.86px" lengthAdjust="spacingAndGlyphs">K's tau</text>
+      <text x="290.00" y="288.33" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="14.16px" lengthAdjust="spacingAndGlyphs">PCP</text>
+      <text x="290.00" y="270.98" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="32.55px" lengthAdjust="spacingAndGlyphs">PcaHubert</text>
+      <text x="290.00" y="253.63" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="24.89px" lengthAdjust="spacingAndGlyphs">PcaGrid</text>
+      <text x="290.00" y="236.28" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="14.16px" lengthAdjust="spacingAndGlyphs">PCA</text>
+      <text x="35.54" y="184.29" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="8.80px" lengthAdjust="spacingAndGlyphs">LR</text>
+      <text x="35.54" y="166.94" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="15.31px" lengthAdjust="spacingAndGlyphs">Shell</text>
+      <text x="35.54" y="149.59" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="11.48px" lengthAdjust="spacingAndGlyphs">Ball</text>
+      <text x="35.54" y="132.24" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="16.84px" lengthAdjust="spacingAndGlyphs">Quad</text>
+      <text x="35.54" y="114.89" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="21.44px" lengthAdjust="spacingAndGlyphs">Winsor</text>
+      <text x="35.54" y="97.54" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="20.86px" lengthAdjust="spacingAndGlyphs">K's tau</text>
+      <text x="35.54" y="80.19" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="14.16px" lengthAdjust="spacingAndGlyphs">PCP</text>
+      <text x="35.54" y="62.84" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="32.55px" lengthAdjust="spacingAndGlyphs">PcaHubert</text>
+      <text x="35.54" y="45.48" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="24.89px" lengthAdjust="spacingAndGlyphs">PcaGrid</text>
+      <text x="35.54" y="28.13" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="14.16px" lengthAdjust="spacingAndGlyphs">PCA</text>
+      <text x="35.54" y="392.44" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="8.80px" lengthAdjust="spacingAndGlyphs">LR</text>
+      <text x="35.54" y="375.09" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="15.31px" lengthAdjust="spacingAndGlyphs">Shell</text>
+      <text x="35.54" y="357.73" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="11.48px" lengthAdjust="spacingAndGlyphs">Ball</text>
+      <text x="35.54" y="340.38" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="16.84px" lengthAdjust="spacingAndGlyphs">Quad</text>
+      <text x="35.54" y="323.03" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="21.44px" lengthAdjust="spacingAndGlyphs">Winsor</text>
+      <text x="35.54" y="305.68" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="20.86px" lengthAdjust="spacingAndGlyphs">K's tau</text>
+      <text x="35.54" y="288.33" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="14.16px" lengthAdjust="spacingAndGlyphs">PCP</text>
+      <text x="35.54" y="270.98" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="32.55px" lengthAdjust="spacingAndGlyphs">PcaHubert</text>
+      <text x="35.54" y="253.63" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="24.89px" lengthAdjust="spacingAndGlyphs">PcaGrid</text>
+      <text x="35.54" y="236.28" text-anchor="end" style="font-size: 6.90px;fill: #202020; font-family: &quot;Arial&quot;;" textLength="14.16px" lengthAdjust="spacingAndGlyphs">PCA</text>
+      <text x="217.41" y="423.370" style="font-size: 6.80px; font-family: &quot;Arial&quot;;" textLength="11.33px" lengthAdjust="spacingAndGlyphs">ARI</text>
+      <image width="79.37" height="5.67" x="240.69" y="418.10" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAABCAYAAABkOJMpAAAAp0lEQVQ4jYWRwRWDMAxDvzpJF2L/cdxDaIiFAqc8bOlbNuJ7lARCxFfiw3jlr+lR1hH0LPzxaZylDw+6tR48xJmc2bBdrBdretTxwiax17plJGhn3TIlLSG/Z7hY2s+d90585f13vsbXxvfXbNizpo2vwt0q3L7sv1T3BB9yjs96Y1bT4l7j5J2q5Wv9wIDqzKk5+5OddaOfvWOHe23rbdolO6a5cYsfWwE1MFKV93IAAAAASUVORK5CYII="/>
+      <polyline points="240.83,420.31 240.83,423.77 " style="stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;"/>
+      <polyline points="280.38,420.31 280.38,423.77 " style="stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;"/>
+      <polyline points="319.93,420.31 319.93,423.77 " style="stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;"/>
+      <polyline points="240.83,421.55 240.83,418.10 " style="stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;"/>
+      <polyline points="280.38,421.55 280.38,418.10 " style="stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;"/>
+      <polyline points="319.93,421.55 319.93,418.10 " style="stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;"/>
+      <text x="240.83" y="431.67" text-anchor="middle" style="font-size: 6.30px; font-family: &quot;Arial&quot;;" textLength="8.75px" lengthAdjust="spacingAndGlyphs">0.0</text>
+      <text x="280.38" y="431.67" text-anchor="middle" style="font-size: 6.30px; font-family: &quot;Arial&quot;;" textLength="8.75px" lengthAdjust="spacingAndGlyphs">0.5</text>
+      <text x="319.93" y="431.67" text-anchor="middle" style="font-size: 6.30px; font-family: &quot;Arial&quot;;" textLength="8.75px" lengthAdjust="spacingAndGlyphs">1.0</text>
+    </g>
+  </g>
+</svg>
