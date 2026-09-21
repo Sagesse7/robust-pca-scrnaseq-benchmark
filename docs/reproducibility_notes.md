@@ -2,11 +2,10 @@
 
 ## Source of reported results
 
-The curated manuscript Source Data are supplied separately with the submission
-rather than duplicated in this code repository. They are the numerical basis
-for the reported figures and Supplementary tables. After placing them in
-`Source_Data/`, the supplied figure scripts regenerate the corresponding
-figures and derived summaries.
+The curated manuscript Source Data are included in the `Source_Data/`
+directory. They provide the numerical basis for the reported figures and
+Supplementary tables. The supplied figure scripts regenerate the corresponding
+figures and derived summaries from these files.
 
 ## Simulation settings
 
