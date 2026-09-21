@@ -5,14 +5,6 @@ same title. It contains the analysis and figure-generation code, curated Source
 Data underlying the reported figures and tables, final figure files, and the
 recorded R environment.
 
-## v1.0.2 presentation update
-
-This version aligns the figure files and plotting scripts with the revised
-manuscript. Changes concern font sizes, panel layout, axis-label orientation
-and spacing, and colorbar-title alignment. Numerical Source Data, analysis
-methods, and scientific results are unchanged. Figures 1 and 9 retain their
-previous appearance. See [`CHANGELOG.md`](CHANGELOG.md) for details.
-
 
 ## Contents
 
